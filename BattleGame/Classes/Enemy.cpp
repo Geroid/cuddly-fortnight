@@ -37,10 +37,11 @@ bool Enemy::init() {
     
     this->setScale(0.3);
     auto size = this->getContentSize();
-    auto physicsBody = PhysicsBody::createBox(size, PhysicsMaterial(0.1f, 1.0f, 0.0f));
+    auto physicsBody = PhysicsBody::createBox(Size(size.width, size.height), PhysicsMaterial(0.1f, 1.0f, 0.0f));
+    physicsBody->setDynamic(true);
     physicsBody->setCategoryBitmask(0x1);
     physicsBody->setContactTestBitmask(0x2);
-    physicsBody->setDynamic(false);
+    
     this->addComponent(physicsBody);
     
     this->setRotation(180);
