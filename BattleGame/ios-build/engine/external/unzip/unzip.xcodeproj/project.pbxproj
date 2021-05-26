@@ -1,0 +1,741 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		DED5213515B74A0E8FB360F5 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 0A942FE3C9A44DCF905B5B15 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				485CE1C20C63E854A889C2B1 /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				F4AA8CE2629748E7B7607E97 /* PBXTargetDependency */,
+				0591604BFC6F43C4B4C2B969 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		FE25B1946F09484F9DD0D237 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = E97C2C8781F640338A89CEE5 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				4A178B7887E40A65031B3055 /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		433F3D5E4E52447BBBA57F3F /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/unzip/ioapi.cpp */ = {isa = PBXBuildFile; fileRef = F3887D96E2D1421CAF35A6B7 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/unzip/ioapi.cpp */; };
+		53CF8059397748F3B925487F /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/unzip/unzip.cpp */ = {isa = PBXBuildFile; fileRef = B179D6016C4548E58B89D857 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/unzip/unzip.cpp */; };
+		92287FFE996C49A7BD3F16F3 /* /Users/v.rezvancev/BattleGame/BattleGame/ios-build/engine/external/unzip/CMakeFiles/ext_unzip.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = 1FC0A8D35D164EB7A02D4513 /* /Users/v.rezvancev/BattleGame/BattleGame/ios-build/engine/external/unzip/CMakeFiles/ext_unzip.dir/Info.plist */; };
+		C7209F8016484B2BBCBBC267 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/unzip/ioapi_mem.cpp */ = {isa = PBXBuildFile; fileRef = 0E812A94AC47496BAE9EBE5F /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/unzip/ioapi_mem.cpp */; };
+		DB1C6600891E46E689947E15 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/unzip/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 48B6E50D72FA4489BF335BEE /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/unzip/CMakeLists.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		8864C1392C76465B90BD91DF /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		8A872AE9013A401F952C547D /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		9435A8B7F9BF47298129488D /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		CC01F1066D754CB9A5A39F8D /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		2A1074582821450CB6A8CD8D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38231DD5895D4F4D957F75B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE25B1946F09484F9DD0D237;
+			remoteInfo = ZERO_CHECK;
+		};
+		844989B8F271491BBB579441 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38231DD5895D4F4D957F75B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE25B1946F09484F9DD0D237;
+			remoteInfo = ZERO_CHECK;
+		};
+		A82F82D9CA9E4112B8418170 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38231DD5895D4F4D957F75B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDAF379DDC424980A766998A;
+			remoteInfo = ext_unzip;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07A4E6F78272470383E73967 /* ext_unzip */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_unzip.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E812A94AC47496BAE9EBE5F /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/unzip/ioapi_mem.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ioapi_mem.cpp; path = ioapi_mem.cpp; sourceTree = SOURCE_ROOT; };
+		169B9B2CF92945118693379B /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/unzip/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		1FC0A8D35D164EB7A02D4513 /* /Users/v.rezvancev/BattleGame/BattleGame/ios-build/engine/external/unzip/CMakeFiles/ext_unzip.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = "../../../ios-build/engine/external/unzip/CMakeFiles/ext_unzip.dir/Info.plist"; sourceTree = SOURCE_ROOT; };
+		48B6E50D72FA4489BF335BEE /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/unzip/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		B179D6016C4548E58B89D857 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/unzip/unzip.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = unzip.cpp; path = unzip.cpp; sourceTree = SOURCE_ROOT; };
+		F3887D96E2D1421CAF35A6B7 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/unzip/ioapi.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ioapi.cpp; path = ioapi.cpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		79B9F6B76B774826A6B0221D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0952F190B57A42D892200FE6 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				F3887D96E2D1421CAF35A6B7 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/unzip/ioapi.cpp */,
+				0E812A94AC47496BAE9EBE5F /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/unzip/ioapi_mem.cpp */,
+				B179D6016C4548E58B89D857 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/unzip/unzip.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		0FF88DBA95B040D7A779CB77 /* External */ = {
+			isa = PBXGroup;
+			children = (
+				41043D8AB6E34B22820A1624 /* ext_unzip */,
+			);
+			name = External;
+			sourceTree = "<group>";
+		};
+		1F4C29207B6C46E6A9617EDF = {
+			isa = PBXGroup;
+			children = (
+				0FF88DBA95B040D7A779CB77 /* External */,
+				BFAA35E60D8142089E87F4DB /* ALL_BUILD */,
+				4E8CC6568A03494C963C46CB /* Products */,
+				995E02ADEE9549659DD536BE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		288FA143A36C4BF7A66D4DF1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1FC0A8D35D164EB7A02D4513 /* /Users/v.rezvancev/BattleGame/BattleGame/ios-build/engine/external/unzip/CMakeFiles/ext_unzip.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		41043D8AB6E34B22820A1624 /* ext_unzip */ = {
+			isa = PBXGroup;
+			children = (
+				0952F190B57A42D892200FE6 /* Source Files */,
+				288FA143A36C4BF7A66D4DF1 /* Resources */,
+				48B6E50D72FA4489BF335BEE /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/unzip/CMakeLists.txt */,
+			);
+			name = ext_unzip;
+			sourceTree = "<group>";
+		};
+		4E8CC6568A03494C963C46CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07A4E6F78272470383E73967 /* ext_unzip */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		995E02ADEE9549659DD536BE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BFAA35E60D8142089E87F4DB /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				DD4D5569612644C7AA7C4D6D /* CMake Rules */,
+				169B9B2CF92945118693379B /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/unzip/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		DD4D5569612644C7AA7C4D6D /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BDAF379DDC424980A766998A /* ext_unzip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7769710EE06446DF88BE5E81 /* Build configuration list for PBXNativeTarget "ext_unzip" */;
+			buildPhases = (
+				C4EFB434F0B84750BC5F08C3 /* Sources */,
+				79B9F6B76B774826A6B0221D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B8AAF92EFFA349758B01FDB4 /* PBXTargetDependency */,
+			);
+			name = ext_unzip;
+			productName = ext_unzip;
+			productReference = 07A4E6F78272470383E73967 /* ext_unzip */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		38231DD5895D4F4D957F75B2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1250;
+			};
+			buildConfigurationList = DC41C705E6744D52B0D401F0 /* Build configuration list for PBXProject "unzip" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				CC01F1066D754CB9A5A39F8D /* Debug */,
+				9435A8B7F9BF47298129488D /* Release */,
+				8A872AE9013A401F952C547D /* MinSizeRel */,
+				8864C1392C76465B90BD91DF /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 1F4C29207B6C46E6A9617EDF;
+			projectDirPath = ../../../../cocos2d/external/unzip;
+			projectRoot = "";
+			targets = (
+				DED5213515B74A0E8FB360F5 /* ALL_BUILD */,
+				FE25B1946F09484F9DD0D237 /* ZERO_CHECK */,
+				BDAF379DDC424980A766998A /* ext_unzip */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		485CE1C20C63E854A889C2B1 /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+"/Users/v.rezvancev/BattleGame/BattleGame/ios-build/engine/external/unzip/CMakeFiles/ALL_BUILD"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/v.rezvancev/BattleGame/BattleGame/ios-build/engine/external/unzip
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/v.rezvancev/BattleGame/BattleGame/ios-build/engine/external/unzip
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/v.rezvancev/BattleGame/BattleGame/ios-build/engine/external/unzip
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/v.rezvancev/BattleGame/BattleGame/ios-build/engine/external/unzip
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		4A178B7887E40A65031B3055 /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+"/Users/v.rezvancev/BattleGame/BattleGame/ios-build/engine/external/unzip/CMakeFiles/ZERO_CHECK"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/v.rezvancev/BattleGame/BattleGame/ios-build/engine/external/unzip
+  make -f /Users/v.rezvancev/BattleGame/BattleGame/ios-build/engine/external/unzip/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/v.rezvancev/BattleGame/BattleGame/ios-build/engine/external/unzip
+  make -f /Users/v.rezvancev/BattleGame/BattleGame/ios-build/engine/external/unzip/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/v.rezvancev/BattleGame/BattleGame/ios-build/engine/external/unzip
+  make -f /Users/v.rezvancev/BattleGame/BattleGame/ios-build/engine/external/unzip/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/v.rezvancev/BattleGame/BattleGame/ios-build/engine/external/unzip
+  make -f /Users/v.rezvancev/BattleGame/BattleGame/ios-build/engine/external/unzip/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C4EFB434F0B84750BC5F08C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				433F3D5E4E52447BBBA57F3F /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/unzip/ioapi.cpp */,
+				C7209F8016484B2BBCBBC267 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/unzip/ioapi_mem.cpp */,
+				53CF8059397748F3B925487F /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/unzip/unzip.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0591604BFC6F43C4B4C2B969 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDAF379DDC424980A766998A /* ext_unzip */;
+			targetProxy = A82F82D9CA9E4112B8418170 /* PBXContainerItemProxy */;
+		};
+		B8AAF92EFFA349758B01FDB4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE25B1946F09484F9DD0D237 /* ZERO_CHECK */;
+			targetProxy = 2A1074582821450CB6A8CD8D /* PBXContainerItemProxy */;
+		};
+		F4AA8CE2629748E7B7607E97 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE25B1946F09484F9DD0D237 /* ZERO_CHECK */;
+			targetProxy = 844989B8F271491BBB579441 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0386CA7423D84972B140B24F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/v.rezvancev/BattleGame/BattleGame/ios-build/engine/external/unzip";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		0BBB64D714894B31AA094E7C /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/v.rezvancev/BattleGame/BattleGame/ios-build/engine/external/unzip";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		0CBCC522B48240FFAC5FA8A1 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SYMROOT = "/Users/v.rezvancev/BattleGame/BattleGame/ios-build/engine/external/unzip/build";
+			};
+			name = MinSizeRel;
+		};
+		3062D5555FC446BD80097E78 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/v.rezvancev/BattleGame/BattleGame/ios-build/engine/external/unzip";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		508A841B8ADE4D9D8AB26C34 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/v.rezvancev/BattleGame/BattleGame/ios-build/lib/MinSizeRel";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/unzip/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_unzip;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/v.rezvancev/BattleGame/BattleGame/ios-build/engine/external/unzip";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		5D71DD77B5A14D2AA53C4C31 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SYMROOT = "/Users/v.rezvancev/BattleGame/BattleGame/ios-build/engine/external/unzip/build";
+			};
+			name = RelWithDebInfo;
+		};
+		66521A5D92F84C7680F4AE0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/v.rezvancev/BattleGame/BattleGame/ios-build/lib/Release";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/unzip/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_unzip;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/v.rezvancev/BattleGame/BattleGame/ios-build/engine/external/unzip";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		6864F37BFD994506AEF6548F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/v.rezvancev/BattleGame/BattleGame/ios-build/lib/Debug";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/unzip/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_unzip;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/v.rezvancev/BattleGame/BattleGame/ios-build/engine/external/unzip";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		7AA3DEC06353498380BA2662 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/v.rezvancev/BattleGame/BattleGame/ios-build/lib/RelWithDebInfo";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/unzip/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_unzip;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/v.rezvancev/BattleGame/BattleGame/ios-build/engine/external/unzip";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		7E499EED5F7B43E9BF73EF62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SYMROOT = "/Users/v.rezvancev/BattleGame/BattleGame/ios-build/engine/external/unzip/build";
+			};
+			name = Debug;
+		};
+		830ECD2E5683485488A9A54E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/v.rezvancev/BattleGame/BattleGame/ios-build/engine/external/unzip";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		92421262613E4509A62EE5FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SYMROOT = "/Users/v.rezvancev/BattleGame/BattleGame/ios-build/engine/external/unzip/build";
+			};
+			name = Release;
+		};
+		C7929F4E968445B894B8C5D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/v.rezvancev/BattleGame/BattleGame/ios-build/engine/external/unzip";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		CF982221F91F454D83595DAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/v.rezvancev/BattleGame/BattleGame/ios-build/engine/external/unzip";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		D3DDABA793F6414E8D758C0E /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/v.rezvancev/BattleGame/BattleGame/ios-build/engine/external/unzip";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		D99F423D834D4FF59B84EB35 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/v.rezvancev/BattleGame/BattleGame/ios-build/engine/external/unzip";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A942FE3C9A44DCF905B5B15 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				830ECD2E5683485488A9A54E /* Debug */,
+				CF982221F91F454D83595DAB /* Release */,
+				D99F423D834D4FF59B84EB35 /* MinSizeRel */,
+				3062D5555FC446BD80097E78 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		7769710EE06446DF88BE5E81 /* Build configuration list for PBXNativeTarget "ext_unzip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6864F37BFD994506AEF6548F /* Debug */,
+				66521A5D92F84C7680F4AE0D /* Release */,
+				508A841B8ADE4D9D8AB26C34 /* MinSizeRel */,
+				7AA3DEC06353498380BA2662 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		DC41C705E6744D52B0D401F0 /* Build configuration list for PBXProject "unzip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E499EED5F7B43E9BF73EF62 /* Debug */,
+				92421262613E4509A62EE5FE /* Release */,
+				0CBCC522B48240FFAC5FA8A1 /* MinSizeRel */,
+				5D71DD77B5A14D2AA53C4C31 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E97C2C8781F640338A89CEE5 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7929F4E968445B894B8C5D1 /* Debug */,
+				0386CA7423D84972B140B24F /* Release */,
+				D3DDABA793F6414E8D758C0E /* MinSizeRel */,
+				0BBB64D714894B31AA094E7C /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 38231DD5895D4F4D957F75B2 /* Project object */;
+}

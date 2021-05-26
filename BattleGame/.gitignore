@@ -1,0 +1,67 @@
+# Compiled source 
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+*.o.d
+*.a
+
+# Packages 
+*.7z
+*.dmg
+*.gz
+*.iso
+*.rar
+*.tar
+*.zip
+
+# Logs and databases 
+*.log
+*.sql
+*.sqlite
+
+# Personal files in the iOS project 
+*.mode1v3
+*.mode2v3
+xcuserdata
+*.xccheckout
+*.moved-aside
+*.xcuserstate
+*.xcscmblueprint
+
+*.mode*
+*.pbxuser
+*.perspective*
+
+!project.pbxproj
+proj.ios_mac/.idea/*
+proj.ios_mac/build/*
+
+# Generated files in the Android project 
+proj.android/libs/armeabi/*
+proj.android/libs/armeabi-v7a/*
+proj.android/libs/x86/*
+proj.android/obj/*
+
+proj.android/build/
+proj.android/gen/*
+proj.android/bin/*
+proj.android/assets/*
+
+.gradle/*
+proj.android/.gradle/*
+proj.android/.idea/*
+proj.android/*.iml
+proj.android/local.properties
+
+proj.android/libraries/*/build/
+proj.android/libraries/*/gen/*
+proj.android/libraries/*/bin/*
+proj.android/libraries/*/.idea/*
+proj.android/libraries/*/*.iml
+proj.android/libraries/*/local.properties
+
+
+*.apk

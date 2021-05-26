@@ -1,0 +1,49 @@
+Target dependency graph (14 targets)
+ZERO_CHECK in BattleGame
+ext_recast in BattleGame
+ext_tinyxml2 in BattleGame
+ext_xxhash in BattleGame
+ext_xxtea in BattleGame
+ext_clipper in BattleGame
+ext_edtaa3func in BattleGame
+ext_convertUTF in BattleGame
+ext_poly2tri in BattleGame
+ext_md5 in BattleGame
+ext_unzip in BattleGame
+external in BattleGame, depends on:
+ext_recast in BattleGame (explicit)
+ext_tinyxml2 in BattleGame (explicit)
+ext_xxhash in BattleGame (explicit)
+ext_xxtea in BattleGame (explicit)
+ext_clipper in BattleGame (explicit)
+ext_edtaa3func in BattleGame (explicit)
+ext_convertUTF in BattleGame (explicit)
+ext_poly2tri in BattleGame (explicit)
+ext_md5 in BattleGame (explicit)
+ext_unzip in BattleGame (explicit)
+cocos2d in BattleGame, depends on:
+external in BattleGame (explicit)
+ext_recast in BattleGame (explicit)
+ext_tinyxml2 in BattleGame (explicit)
+ext_xxhash in BattleGame (explicit)
+ext_xxtea in BattleGame (explicit)
+ext_clipper in BattleGame (explicit)
+ext_edtaa3func in BattleGame (explicit)
+ext_convertUTF in BattleGame (explicit)
+ext_poly2tri in BattleGame (explicit)
+ext_md5 in BattleGame (explicit)
+ext_unzip in BattleGame (explicit)
+BattleGame in BattleGame, depends on:
+ZERO_CHECK in BattleGame (explicit)
+cocos2d in BattleGame (explicit)
+external in BattleGame (explicit)
+ext_recast in BattleGame (explicit)
+ext_tinyxml2 in BattleGame (explicit)
+ext_xxhash in BattleGame (explicit)
+ext_xxtea in BattleGame (explicit)
+ext_clipper in BattleGame (explicit)
+ext_edtaa3func in BattleGame (explicit)
+ext_convertUTF in BattleGame (explicit)
+ext_poly2tri in BattleGame (explicit)
+ext_md5 in BattleGame (explicit)
+ext_unzip in BattleGame (explicit)

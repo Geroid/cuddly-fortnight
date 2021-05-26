@@ -1,0 +1,93 @@
+{
+  "buildCommand" : "prepareForIndexing",
+  "configuredTargets" : [
+    {
+      "guid" : "8f2732df30b9efa10c6287dd8a35f23a1ad7780a8206c952635239ecc29f8cf5"
+    },
+    {
+      "guid" : "8f2732df30b9efa10c6287dd8a35f23a239136a32702e8306b4656bdfcf0e0a5"
+    },
+    {
+      "guid" : "8f2732df30b9efa10c6287dd8a35f23a6e2dd78e5a12f94ad2b92c11b91079eb"
+    },
+    {
+      "guid" : "8f2732df30b9efa10c6287dd8a35f23a4f4b913d6af0599c7f7000252e88b393"
+    },
+    {
+      "guid" : "8f2732df30b9efa10c6287dd8a35f23a774f15b331c65450d4d891633f00cad2"
+    },
+    {
+      "guid" : "8f2732df30b9efa10c6287dd8a35f23a779397f64198e8625d5107185679a3ed"
+    },
+    {
+      "guid" : "8f2732df30b9efa10c6287dd8a35f23a40d19af2f8a8913393f02edb9e039e7a"
+    },
+    {
+      "guid" : "8f2732df30b9efa10c6287dd8a35f23a54f2dcc08936a730a6a442b0da3a6286"
+    },
+    {
+      "guid" : "8f2732df30b9efa10c6287dd8a35f23ad445ffd2f4657d7645e147dc6b8b518f"
+    },
+    {
+      "guid" : "8f2732df30b9efa10c6287dd8a35f23a877e7f8b0c2ee67bf3bb32e6146db989"
+    },
+    {
+      "guid" : "8f2732df30b9efa10c6287dd8a35f23a5cef2ae3afd363edefa588acf8d55e7b"
+    },
+    {
+      "guid" : "8f2732df30b9efa10c6287dd8a35f23a79f1612351394c38fde4ddf127bfb4b2"
+    },
+    {
+      "guid" : "8f2732df30b9efa10c6287dd8a35f23a251fde40095f7b86bf169eb29ce38037"
+    },
+    {
+      "guid" : "8f2732df30b9efa10c6287dd8a35f23ab69827a650fdda11fe1d665a1c4c1d51"
+    },
+    {
+      "guid" : "8f2732df30b9efa10c6287dd8a35f23aa6bf73165952373131a73ffd5ed0ac05"
+    }
+  ],
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "x86_64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "macosx",
+      "sdk" : "macosx11.3",
+      "sdkVariant" : "macos",
+      "supportedArchitectures" : [
+        "x86_64h",
+        "x86_64"
+      ],
+      "targetArchitecture" : "x86_64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "",
+      "buildProductsPath" : "",
+      "derivedDataPath" : "/Users/v.rezvancev/Library/Developer/Xcode/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/v.rezvancev/Library/Developer/Xcode/DerivedData/BattleGame-eecliynwjstldpajjdtwlwrxnazy/Index/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/v.rezvancev/Library/Developer/Xcode/DerivedData/BattleGame-eecliynwjstldpajjdtwlwrxnazy/Index/PrecompiledHeaders",
+      "pchPath" : ""
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO"
+        }
+      }
+    }
+  },
+  "qos" : "default",
+  "schemeCommand" : "launch",
+  "shouldCollectMetrics" : false,
+  "showNonLoggedProgress" : true,
+  "useDryRun" : true,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

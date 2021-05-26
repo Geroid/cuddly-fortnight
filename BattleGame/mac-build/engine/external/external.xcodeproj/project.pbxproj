@@ -1,0 +1,2796 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		33FBA7142CFD471EA0076D3B /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = B5A7851559034042A782FEA5 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				1BB81A80641181B87DCB831D /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				B3A14E6F014D45229F175E3A /* PBXTargetDependency */,
+				3080A2F2F46845FFBE6A4BC2 /* PBXTargetDependency */,
+				EB700D149BE74D8CA62B5185 /* PBXTargetDependency */,
+				9DC4B9F162024ECFA5D5C13A /* PBXTargetDependency */,
+				1AB057419C7342FF9FB8F103 /* PBXTargetDependency */,
+				658CCC3B4339487DBF30E72C /* PBXTargetDependency */,
+				7D9D8B71D504485EB8214DE1 /* PBXTargetDependency */,
+				DB1DFE7680184030AF299C47 /* PBXTargetDependency */,
+				ED55CCBFD8704A6D91364009 /* PBXTargetDependency */,
+				64BEDD3C7FF949BFB247DA65 /* PBXTargetDependency */,
+				08B17D88B0CF4BB3A819E86B /* PBXTargetDependency */,
+				0EE5478EB21C4F6CBC74AFA0 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		692A0FAD294D4647A7A863AD /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 88D2D96B05634025A0879F44 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				4A24DFF963CDC3478655B154 /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		069633A9FBD64F8889333D8A /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/poly2tri/sweep/sweep_context.cc */ = {isa = PBXBuildFile; fileRef = 02DB2DFA86C74BE6BB47D44D /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/poly2tri/sweep/sweep_context.cc */; };
+		0B31A3F4B1AA4567807F1581 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/recast/DetourCrowd/DetourProximityGrid.cpp */ = {isa = PBXBuildFile; fileRef = 28FCBED537DF42EC990422B5 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/recast/DetourCrowd/DetourProximityGrid.cpp */; };
+		0C2CF2B8BCC94243AF7F2716 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/poly2tri/sweep/cdt.cc */ = {isa = PBXBuildFile; fileRef = 8D4466FAB65A4BC3980D8073 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/poly2tri/sweep/cdt.cc */; };
+		11C44B3D1353407DA905A5F7 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/recast/DetourCrowd/DetourPathCorridor.cpp */ = {isa = PBXBuildFile; fileRef = 6313AEE0FB7F4838850F8698 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/recast/DetourCrowd/DetourPathCorridor.cpp */; };
+		11DD7824DA084C8898B4FA2C /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/recast/DebugUtils/DetourDebugDraw.cpp */ = {isa = PBXBuildFile; fileRef = FC9F1BAE617143309B668FA8 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/recast/DebugUtils/DetourDebugDraw.cpp */; };
+		1CB3EA5B26BD48C9BCED3881 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/unzip/ioapi.cpp */ = {isa = PBXBuildFile; fileRef = 09F690689BDD4BEC8E728F3C /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/unzip/ioapi.cpp */; };
+		222BC46C052843829AF4BEA6 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/recast/Detour/DetourNavMesh.cpp */ = {isa = PBXBuildFile; fileRef = 7A644E2291F140F08E2587C6 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/recast/Detour/DetourNavMesh.cpp */; };
+		2594D16A69B74FA0B827C249 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/xxhash/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 8C693781A8A340D4AAEDFE91 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/xxhash/CMakeLists.txt */; };
+		2FDEBE1EA0CA4A3F8B95272D /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/recast/DetourTileCache/DetourTileCache.cpp */ = {isa = PBXBuildFile; fileRef = D57C707841884155B4F3FC09 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/recast/DetourTileCache/DetourTileCache.cpp */; };
+		3331BDC3C92E4A49958AFA75 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/tinyxml2/tinyxml2.cpp */ = {isa = PBXBuildFile; fileRef = E3708E5EE38B4219B35F362B /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/tinyxml2/tinyxml2.cpp */; };
+		3C9B2CA5C2774497B7CF5F76 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/xxtea/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = CE8F9C4C3E4A4A55813C9FC8 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/xxtea/CMakeLists.txt */; };
+		452DF0F8C75C48948C868591 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/recast/DetourCrowd/DetourObstacleAvoidance.cpp */ = {isa = PBXBuildFile; fileRef = 424DFBA5FEE649DDA0F9DDC0 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/recast/DetourCrowd/DetourObstacleAvoidance.cpp */; };
+		47C404FB7BBF4DAB854CA3D1 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/xxtea/xxtea.cpp */ = {isa = PBXBuildFile; fileRef = 7508925393BD417894DED245 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/xxtea/xxtea.cpp */; };
+		50A62F6EEF5C4442AFEDF137 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/empty.cpp */ = {isa = PBXBuildFile; fileRef = 07710E2769934737BAC4E94A /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/empty.cpp */; };
+		5276CDAF12B443259D1B1164 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/md5/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 3E0E4B91C8DC459EB6D85BBA /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/md5/CMakeLists.txt */; };
+		547DB3BCD6BC4FA8A07F6ED8 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/unzip/unzip.cpp */ = {isa = PBXBuildFile; fileRef = 8E31939339C8482FA25E6551 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/unzip/unzip.cpp */; };
+		5AFFD76487854FA6A92D711F /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/poly2tri/sweep/sweep.cc */ = {isa = PBXBuildFile; fileRef = 5B32E2A1D59E442299B1F7A5 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/poly2tri/sweep/sweep.cc */; };
+		6DD3C126B9AC43B7B307CB4C /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/unzip/ioapi_mem.cpp */ = {isa = PBXBuildFile; fileRef = 6AC3B1A38BE8439FBA66AD65 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/unzip/ioapi_mem.cpp */; };
+		720D04E360464245B826A797 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/edtaa3func/edtaa3func.cpp */ = {isa = PBXBuildFile; fileRef = 1155141C8AFF412EB2D43C62 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/edtaa3func/edtaa3func.cpp */; };
+		72B8426432EA4FF288E2A68D /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/edtaa3func/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 951F387175934B019462B79E /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/edtaa3func/CMakeLists.txt */; };
+		78E66D1DD284462281026EC1 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/poly2tri/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = E7F08A08582843879E754C7A /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/poly2tri/CMakeLists.txt */; };
+		78F0CA883067422AB3ACEC9B /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/tinyxml2/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = A8FE106EE19F47BCACB4393C /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/tinyxml2/CMakeLists.txt */; };
+		7E770DE8DE724D359566ADF6 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/recast/Detour/DetourNode.cpp */ = {isa = PBXBuildFile; fileRef = 4F95F2987D094CEA877CE6F1 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/recast/Detour/DetourNode.cpp */; };
+		822DB73F79E94F32B0C6D794 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/recast/Detour/DetourNavMeshBuilder.cpp */ = {isa = PBXBuildFile; fileRef = 4BE1EEA9530D4844AE248B1F /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/recast/Detour/DetourNavMeshBuilder.cpp */; };
+		8610CBDF50624DDB97FBD4B1 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/recast/fastlz/fastlz.c */ = {isa = PBXBuildFile; fileRef = 54D5ACC0789C46EC9227B00D /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/recast/fastlz/fastlz.c */; };
+		8DA0603B6530474494357661 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/recast/DetourTileCache/DetourTileCacheBuilder.cpp */ = {isa = PBXBuildFile; fileRef = D1C30A80F96E42D98412F90F /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/recast/DetourTileCache/DetourTileCacheBuilder.cpp */; };
+		910A7C51B5DE4801B5714476 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/recast/Detour/DetourCommon.cpp */ = {isa = PBXBuildFile; fileRef = A7033E5329BD41CD9BC4BA22 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/recast/Detour/DetourCommon.cpp */; };
+		9FD66AE32084410488293E82 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/recast/Detour/DetourAlloc.cpp */ = {isa = PBXBuildFile; fileRef = FD6B94610E014B1EAD962E3B /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/recast/Detour/DetourAlloc.cpp */; };
+		A8799732A2774DA58BBD9488 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/clipper/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = B6B8E2CD612A449CBA790723 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/clipper/CMakeLists.txt */; };
+		B1E7B69E58AA4A3CA8D84414 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/ConvertUTF/ConvertUTF.c */ = {isa = PBXBuildFile; fileRef = F6CC95DAC3C043869F8D1795 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/ConvertUTF/ConvertUTF.c */; };
+		B51012E2BB52439EAD36AAA2 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/poly2tri/sweep/advancing_front.cc */ = {isa = PBXBuildFile; fileRef = 330CB416F9A54D36B6556265 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/poly2tri/sweep/advancing_front.cc */; };
+		B7317E0B03CA41AC8B33B850 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/unzip/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = D6F94FBF17C844E8AADF4E7A /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/unzip/CMakeLists.txt */; };
+		C9DF153DFE9D476C92ACB2E3 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/ConvertUTF/ConvertUTFWrapper.cpp */ = {isa = PBXBuildFile; fileRef = 677713272E29431BB5E2FC61 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/ConvertUTF/ConvertUTFWrapper.cpp */; };
+		CC87B88F90404478BF6D3A9A /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/recast/Detour/DetourNavMeshQuery.cpp */ = {isa = PBXBuildFile; fileRef = 1E0CEE043DDD46C88548CE6B /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/recast/Detour/DetourNavMeshQuery.cpp */; };
+		CC90D4FFF1FB4FBFB2AF4A07 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/poly2tri/common/shapes.cc */ = {isa = PBXBuildFile; fileRef = 945462E1E0A442B9A90BD236 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/poly2tri/common/shapes.cc */; };
+		CCECA937E8D44B778AB937AF /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/recast/DetourCrowd/DetourPathQueue.cpp */ = {isa = PBXBuildFile; fileRef = CF6A7A2E47B844098CCBACBD /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/recast/DetourCrowd/DetourPathQueue.cpp */; };
+		D376E0E606B1470EACE891B9 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/recast/DetourCrowd/DetourCrowd.cpp */ = {isa = PBXBuildFile; fileRef = BBF87447A2AC479FBE07F056 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/recast/DetourCrowd/DetourCrowd.cpp */; };
+		DE72154A986A40CBB1550807 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/md5/md5.c */ = {isa = PBXBuildFile; fileRef = 4E16C493876C4B599FF880C2 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/md5/md5.c */; };
+		E0F2D8DE54D642808A5C011C /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/clipper/clipper.cpp */ = {isa = PBXBuildFile; fileRef = D9F43C8E354E481A8F932FCD /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/clipper/clipper.cpp */; };
+		E0FFD7453AF64956853FF2CD /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/recast/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 3966C55211B342D2841ECB26 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/recast/CMakeLists.txt */; };
+		E1D9D22E67964007AB49F5E1 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/recast/DetourCrowd/DetourLocalBoundary.cpp */ = {isa = PBXBuildFile; fileRef = C0B3D44B88B84319B5874663 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/recast/DetourCrowd/DetourLocalBoundary.cpp */; };
+		EDCFAFD652EC436188132248 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/xxhash/xxhash.c */ = {isa = PBXBuildFile; fileRef = 4200378D81FD479D9BCB3F4F /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/xxhash/xxhash.c */; };
+		F8E0C367F12041C5A23D11BF /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/recast/DebugUtils/DebugDraw.cpp */ = {isa = PBXBuildFile; fileRef = 8EB78DA3CC8E45A594E22DC6 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/recast/DebugUtils/DebugDraw.cpp */; };
+		FD18286B6A634831B8217B9A /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/ConvertUTF/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 5D5F0CE727DA400488B16BAC /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/ConvertUTF/CMakeLists.txt */; };
+		FFF5447E72424C94AFA582C1 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = E7D6CE892EEA4001A81AD9B0 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/CMakeLists.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		2ADBDE0550F24BD981E06B89 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		477C8E032D204FABA1926852 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		4BA87DA652AD489C8A1C63F9 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		FC576AA52B524A689255B88B /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		08FBDB5CBBA34FA68225AE1D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95D412E540744D2A88814092 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84D17037A0B74AF088439647;
+			remoteInfo = ext_xxhash;
+		};
+		0BEC2DDD8B1D402E801A20D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95D412E540744D2A88814092 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 692A0FAD294D4647A7A863AD;
+			remoteInfo = ZERO_CHECK;
+		};
+		1157BC3FCC3B4E9B88EF436D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95D412E540744D2A88814092 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 198C8B8AD2C146CCADCDB620;
+			remoteInfo = ext_tinyxml2;
+		};
+		13C15D8CC58A492C95B1C62E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95D412E540744D2A88814092 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 402B80D1166746749F6364EA;
+			remoteInfo = ext_xxtea;
+		};
+		18B0C2FDE50F4C01A7830EDC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95D412E540744D2A88814092 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 692A0FAD294D4647A7A863AD;
+			remoteInfo = ZERO_CHECK;
+		};
+		1DF91757CDC8446B9CCA61DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95D412E540744D2A88814092 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76B84EF4BE144386BED45241;
+			remoteInfo = ext_clipper;
+		};
+		27F1866CE01F45989EEEBC7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95D412E540744D2A88814092 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84D17037A0B74AF088439647;
+			remoteInfo = ext_xxhash;
+		};
+		517947B61E1E4DDDBC1691D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95D412E540744D2A88814092 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 393E283493D9459EA461012E;
+			remoteInfo = ext_convertUTF;
+		};
+		583132E73E3C4DDE8DF99EB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95D412E540744D2A88814092 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2DEE1896AFC048F591DCD65A;
+			remoteInfo = ext_unzip;
+		};
+		63FBE9AA82DC4447810DDF60 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95D412E540744D2A88814092 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B181B950CA564BE09FF606E1;
+			remoteInfo = ext_md5;
+		};
+		6E2F423EF57944A4AF88C551 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95D412E540744D2A88814092 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2DEE1896AFC048F591DCD65A;
+			remoteInfo = ext_unzip;
+		};
+		77B391CC64B94306BC49C9FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95D412E540744D2A88814092 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 532FCDAD959D46BFBF8577E2;
+			remoteInfo = ext_recast;
+		};
+		793102C2465F4CC3A922B074 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95D412E540744D2A88814092 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 532FCDAD959D46BFBF8577E2;
+			remoteInfo = ext_recast;
+		};
+		7E5E3F743607474BA7EAA752 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95D412E540744D2A88814092 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 393E283493D9459EA461012E;
+			remoteInfo = ext_convertUTF;
+		};
+		81BE0276CD984EAEAE0338F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95D412E540744D2A88814092 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDE4D07F91244B9C83BEE589;
+			remoteInfo = ext_poly2tri;
+		};
+		87C363A79C774B9090C7A890 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95D412E540744D2A88814092 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 640F5581A5D845AA815CB598;
+			remoteInfo = ext_edtaa3func;
+		};
+		A5F4652D89714B3182A35943 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95D412E540744D2A88814092 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B181B950CA564BE09FF606E1;
+			remoteInfo = ext_md5;
+		};
+		AD45AC16517D4F0BAC65DFD3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95D412E540744D2A88814092 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76B84EF4BE144386BED45241;
+			remoteInfo = ext_clipper;
+		};
+		B7418E49E4D549A5806B260A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95D412E540744D2A88814092 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDE4D07F91244B9C83BEE589;
+			remoteInfo = ext_poly2tri;
+		};
+		CF8FB129F5E3447A8F4EDCF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95D412E540744D2A88814092 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0407001ED44542BC80269D9C;
+			remoteInfo = external;
+		};
+		D9E5672B0B2541159494D146 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95D412E540744D2A88814092 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 402B80D1166746749F6364EA;
+			remoteInfo = ext_xxtea;
+		};
+		DD3A400BEA594A47924CD125 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95D412E540744D2A88814092 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 640F5581A5D845AA815CB598;
+			remoteInfo = ext_edtaa3func;
+		};
+		E451EC04CADE4A799E9FCB31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95D412E540744D2A88814092 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 198C8B8AD2C146CCADCDB620;
+			remoteInfo = ext_tinyxml2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02DB2DFA86C74BE6BB47D44D /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/poly2tri/sweep/sweep_context.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = sweep_context.cc; path = poly2tri/sweep/sweep_context.cc; sourceTree = SOURCE_ROOT; };
+		067116CF70D54FBE97F3E481 /* ext_convertUTF */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_convertUTF.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		07710E2769934737BAC4E94A /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/empty.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = empty.cpp; path = empty.cpp; sourceTree = SOURCE_ROOT; };
+		09F690689BDD4BEC8E728F3C /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/unzip/ioapi.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ioapi.cpp; path = unzip/ioapi.cpp; sourceTree = SOURCE_ROOT; };
+		1155141C8AFF412EB2D43C62 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/edtaa3func/edtaa3func.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = edtaa3func.cpp; path = edtaa3func/edtaa3func.cpp; sourceTree = SOURCE_ROOT; };
+		1E0CEE043DDD46C88548CE6B /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/recast/Detour/DetourNavMeshQuery.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourNavMeshQuery.cpp; path = recast/Detour/DetourNavMeshQuery.cpp; sourceTree = SOURCE_ROOT; };
+		28FCBED537DF42EC990422B5 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/recast/DetourCrowd/DetourProximityGrid.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourProximityGrid.cpp; path = recast/DetourCrowd/DetourProximityGrid.cpp; sourceTree = SOURCE_ROOT; };
+		2F89D3AD48C94CBDB7B8287C /* ext_md5 */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_md5.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		330CB416F9A54D36B6556265 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/poly2tri/sweep/advancing_front.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = advancing_front.cc; path = poly2tri/sweep/advancing_front.cc; sourceTree = SOURCE_ROOT; };
+		3966C55211B342D2841ECB26 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/recast/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = recast/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		3E0E4B91C8DC459EB6D85BBA /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/md5/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = md5/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		3F558C56A25A4501B3F28FB7 /* ext_unzip */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_unzip.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4200378D81FD479D9BCB3F4F /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/xxhash/xxhash.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = xxhash.c; path = xxhash/xxhash.c; sourceTree = SOURCE_ROOT; };
+		424DFBA5FEE649DDA0F9DDC0 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/recast/DetourCrowd/DetourObstacleAvoidance.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourObstacleAvoidance.cpp; path = recast/DetourCrowd/DetourObstacleAvoidance.cpp; sourceTree = SOURCE_ROOT; };
+		4BE1EEA9530D4844AE248B1F /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/recast/Detour/DetourNavMeshBuilder.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourNavMeshBuilder.cpp; path = recast/Detour/DetourNavMeshBuilder.cpp; sourceTree = SOURCE_ROOT; };
+		4C2CB9EC3B6E45B780296E3F /* ext_xxhash */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_xxhash.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E16C493876C4B599FF880C2 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/md5/md5.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = md5.c; path = md5/md5.c; sourceTree = SOURCE_ROOT; };
+		4F95F2987D094CEA877CE6F1 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/recast/Detour/DetourNode.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourNode.cpp; path = recast/Detour/DetourNode.cpp; sourceTree = SOURCE_ROOT; };
+		54D5ACC0789C46EC9227B00D /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/recast/fastlz/fastlz.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fastlz.c; path = recast/fastlz/fastlz.c; sourceTree = SOURCE_ROOT; };
+		5B32E2A1D59E442299B1F7A5 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/poly2tri/sweep/sweep.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = sweep.cc; path = poly2tri/sweep/sweep.cc; sourceTree = SOURCE_ROOT; };
+		5D5F0CE727DA400488B16BAC /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/ConvertUTF/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = ConvertUTF/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		6313AEE0FB7F4838850F8698 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/recast/DetourCrowd/DetourPathCorridor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourPathCorridor.cpp; path = recast/DetourCrowd/DetourPathCorridor.cpp; sourceTree = SOURCE_ROOT; };
+		677713272E29431BB5E2FC61 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/ConvertUTF/ConvertUTFWrapper.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ConvertUTFWrapper.cpp; path = ConvertUTF/ConvertUTFWrapper.cpp; sourceTree = SOURCE_ROOT; };
+		6AC3B1A38BE8439FBA66AD65 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/unzip/ioapi_mem.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ioapi_mem.cpp; path = unzip/ioapi_mem.cpp; sourceTree = SOURCE_ROOT; };
+		7508925393BD417894DED245 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/xxtea/xxtea.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = xxtea.cpp; path = xxtea/xxtea.cpp; sourceTree = SOURCE_ROOT; };
+		7A644E2291F140F08E2587C6 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/recast/Detour/DetourNavMesh.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourNavMesh.cpp; path = recast/Detour/DetourNavMesh.cpp; sourceTree = SOURCE_ROOT; };
+		7F2C6F7F114242C4AEA3A3ED /* ext_tinyxml2 */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_tinyxml2.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		83AF1B191E284195ADCE4A41 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		8C693781A8A340D4AAEDFE91 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/xxhash/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = xxhash/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		8D4466FAB65A4BC3980D8073 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/poly2tri/sweep/cdt.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = cdt.cc; path = poly2tri/sweep/cdt.cc; sourceTree = SOURCE_ROOT; };
+		8E31939339C8482FA25E6551 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/unzip/unzip.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = unzip.cpp; path = unzip/unzip.cpp; sourceTree = SOURCE_ROOT; };
+		8EB78DA3CC8E45A594E22DC6 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/recast/DebugUtils/DebugDraw.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DebugDraw.cpp; path = recast/DebugUtils/DebugDraw.cpp; sourceTree = SOURCE_ROOT; };
+		93199FE2AB4E4168BCEF58A5 /* ext_recast */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_recast.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		945462E1E0A442B9A90BD236 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/poly2tri/common/shapes.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = shapes.cc; path = poly2tri/common/shapes.cc; sourceTree = SOURCE_ROOT; };
+		951F387175934B019462B79E /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/edtaa3func/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = edtaa3func/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		A7033E5329BD41CD9BC4BA22 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/recast/Detour/DetourCommon.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourCommon.cpp; path = recast/Detour/DetourCommon.cpp; sourceTree = SOURCE_ROOT; };
+		A8FE106EE19F47BCACB4393C /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/tinyxml2/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = tinyxml2/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		B6B8E2CD612A449CBA790723 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/clipper/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = clipper/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		BB25BC4655534C4DAF214B76 /* ext_clipper */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_clipper.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBF87447A2AC479FBE07F056 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/recast/DetourCrowd/DetourCrowd.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourCrowd.cpp; path = recast/DetourCrowd/DetourCrowd.cpp; sourceTree = SOURCE_ROOT; };
+		C0B3D44B88B84319B5874663 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/recast/DetourCrowd/DetourLocalBoundary.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourLocalBoundary.cpp; path = recast/DetourCrowd/DetourLocalBoundary.cpp; sourceTree = SOURCE_ROOT; };
+		CE8F9C4C3E4A4A55813C9FC8 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/xxtea/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = xxtea/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		CF6A7A2E47B844098CCBACBD /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/recast/DetourCrowd/DetourPathQueue.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourPathQueue.cpp; path = recast/DetourCrowd/DetourPathQueue.cpp; sourceTree = SOURCE_ROOT; };
+		D1C30A80F96E42D98412F90F /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/recast/DetourTileCache/DetourTileCacheBuilder.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourTileCacheBuilder.cpp; path = recast/DetourTileCache/DetourTileCacheBuilder.cpp; sourceTree = SOURCE_ROOT; };
+		D24EF3C3B89F46C2A0740DFF /* external */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libexternal.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3D3F7EF67894BE8A9E78D09 /* ext_poly2tri */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_poly2tri.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D57C707841884155B4F3FC09 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/recast/DetourTileCache/DetourTileCache.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourTileCache.cpp; path = recast/DetourTileCache/DetourTileCache.cpp; sourceTree = SOURCE_ROOT; };
+		D6F94FBF17C844E8AADF4E7A /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/unzip/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = unzip/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		D9F43C8E354E481A8F932FCD /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/clipper/clipper.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = clipper.cpp; path = clipper/clipper.cpp; sourceTree = SOURCE_ROOT; };
+		E3708E5EE38B4219B35F362B /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/tinyxml2/tinyxml2.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = tinyxml2.cpp; path = tinyxml2/tinyxml2.cpp; sourceTree = SOURCE_ROOT; };
+		E7D6CE892EEA4001A81AD9B0 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		E7F08A08582843879E754C7A /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/poly2tri/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = poly2tri/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		F48F94A91D88475D886CCA24 /* ext_edtaa3func */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_edtaa3func.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6CC95DAC3C043869F8D1795 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/ConvertUTF/ConvertUTF.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ConvertUTF.c; path = ConvertUTF/ConvertUTF.c; sourceTree = SOURCE_ROOT; };
+		F7D64EB3E5B848F9AD2C8629 /* ext_xxtea */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_xxtea.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC9F1BAE617143309B668FA8 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/recast/DebugUtils/DetourDebugDraw.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourDebugDraw.cpp; path = recast/DebugUtils/DetourDebugDraw.cpp; sourceTree = SOURCE_ROOT; };
+		FD6B94610E014B1EAD962E3B /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/recast/Detour/DetourAlloc.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourAlloc.cpp; path = recast/Detour/DetourAlloc.cpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F47C0D7E2834E1A9B9110A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21CD728BC7F14559ADF8684F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CA3BC7AC92A46B2B5A54A1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		457CADBD97454913B8677D91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2A6D3B298CC4260A09A5DDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAC00C22E23345AA880E4E77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC74071817D04465B553F789 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB53570B417A4DB987EBFEE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D006BBF7EDB14AB6BACA7BAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D85C00377F5D4003B3C6B6F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6A739489C174CF6A592F2F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A493AEEBD8644AE91417688 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				09F690689BDD4BEC8E728F3C /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/unzip/ioapi.cpp */,
+				6AC3B1A38BE8439FBA66AD65 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/unzip/ioapi_mem.cpp */,
+				8E31939339C8482FA25E6551 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/unzip/unzip.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		1E9F6CF297D344B98E89E0D9 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				945462E1E0A442B9A90BD236 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/poly2tri/common/shapes.cc */,
+				330CB416F9A54D36B6556265 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/poly2tri/sweep/advancing_front.cc */,
+				8D4466FAB65A4BC3980D8073 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/poly2tri/sweep/cdt.cc */,
+				5B32E2A1D59E442299B1F7A5 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/poly2tri/sweep/sweep.cc */,
+				02DB2DFA86C74BE6BB47D44D /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/poly2tri/sweep/sweep_context.cc */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		2D9D0A7583F74D70B53EDF5F /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				1155141C8AFF412EB2D43C62 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/edtaa3func/edtaa3func.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		3730420F314744708A66CB49 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				4200378D81FD479D9BCB3F4F /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/xxhash/xxhash.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		3884C21228C0455B96A4ABC9 /* ext_clipper */ = {
+			isa = PBXGroup;
+			children = (
+				9677AA0800964C1BBD57EA15 /* Source Files */,
+				B6B8E2CD612A449CBA790723 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/clipper/CMakeLists.txt */,
+			);
+			name = ext_clipper;
+			sourceTree = "<group>";
+		};
+		3E7C9E8B7C8D4A67A3C85015 /* external */ = {
+			isa = PBXGroup;
+			children = (
+				D24C7E4CDD7F430A83B0F151 /* Source Files */,
+				E7D6CE892EEA4001A81AD9B0 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/CMakeLists.txt */,
+			);
+			name = external;
+			sourceTree = "<group>";
+		};
+		41EDAFFCFEB34E1D97F489EB /* ext_md5 */ = {
+			isa = PBXGroup;
+			children = (
+				D461686DAD8841C7BD46FD17 /* Source Files */,
+				3E0E4B91C8DC459EB6D85BBA /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/md5/CMakeLists.txt */,
+			);
+			name = ext_md5;
+			sourceTree = "<group>";
+		};
+		44EED692077E401BB1109822 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				FA746B56426B4F0D8483C112 /* CMake Rules */,
+				83AF1B191E284195ADCE4A41 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		4C0071931DCE448CA54AC8AE /* ext_tinyxml2 */ = {
+			isa = PBXGroup;
+			children = (
+				64C7CDA1CECA4103AC4BB2B6 /* Source Files */,
+				A8FE106EE19F47BCACB4393C /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/tinyxml2/CMakeLists.txt */,
+			);
+			name = ext_tinyxml2;
+			sourceTree = "<group>";
+		};
+		4CEF3C856282420CA5CDF8E7 /* ext_recast */ = {
+			isa = PBXGroup;
+			children = (
+				A93C962B31264533A1432863 /* Source Files */,
+				3966C55211B342D2841ECB26 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/recast/CMakeLists.txt */,
+			);
+			name = ext_recast;
+			sourceTree = "<group>";
+		};
+		52EB6C595A4E47CF9A73DB77 /* ext_unzip */ = {
+			isa = PBXGroup;
+			children = (
+				0A493AEEBD8644AE91417688 /* Source Files */,
+				D6F94FBF17C844E8AADF4E7A /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/unzip/CMakeLists.txt */,
+			);
+			name = ext_unzip;
+			sourceTree = "<group>";
+		};
+		64C7CDA1CECA4103AC4BB2B6 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				E3708E5EE38B4219B35F362B /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/tinyxml2/tinyxml2.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		65C3621F04E445CC9DF7F571 = {
+			isa = PBXGroup;
+			children = (
+				F5918E658C1C4DBA8AE06CA3 /* External */,
+				44EED692077E401BB1109822 /* ALL_BUILD */,
+				801618A998E34E8D95E97327 /* Products */,
+				67EC1169933045A08733F7E1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		67EC1169933045A08733F7E1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		778C3A71CD5D4CC89A46C682 /* ext_convertUTF */ = {
+			isa = PBXGroup;
+			children = (
+				A99D96E23AAA47CF9CEE43C4 /* Source Files */,
+				5D5F0CE727DA400488B16BAC /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/ConvertUTF/CMakeLists.txt */,
+			);
+			name = ext_convertUTF;
+			sourceTree = "<group>";
+		};
+		801618A998E34E8D95E97327 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB25BC4655534C4DAF214B76 /* ext_clipper */,
+				067116CF70D54FBE97F3E481 /* ext_convertUTF */,
+				F48F94A91D88475D886CCA24 /* ext_edtaa3func */,
+				2F89D3AD48C94CBDB7B8287C /* ext_md5 */,
+				D3D3F7EF67894BE8A9E78D09 /* ext_poly2tri */,
+				93199FE2AB4E4168BCEF58A5 /* ext_recast */,
+				7F2C6F7F114242C4AEA3A3ED /* ext_tinyxml2 */,
+				3F558C56A25A4501B3F28FB7 /* ext_unzip */,
+				4C2CB9EC3B6E45B780296E3F /* ext_xxhash */,
+				F7D64EB3E5B848F9AD2C8629 /* ext_xxtea */,
+				D24EF3C3B89F46C2A0740DFF /* external */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9677AA0800964C1BBD57EA15 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				D9F43C8E354E481A8F932FCD /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/clipper/clipper.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		984A1B7A3FB545DBB7CBB6DB /* ext_poly2tri */ = {
+			isa = PBXGroup;
+			children = (
+				1E9F6CF297D344B98E89E0D9 /* Source Files */,
+				E7F08A08582843879E754C7A /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/poly2tri/CMakeLists.txt */,
+			);
+			name = ext_poly2tri;
+			sourceTree = "<group>";
+		};
+		A777329F7CA84E959E3BFFD8 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				7508925393BD417894DED245 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/xxtea/xxtea.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		A7C1AB19EC004C968B8C239C /* ext_edtaa3func */ = {
+			isa = PBXGroup;
+			children = (
+				2D9D0A7583F74D70B53EDF5F /* Source Files */,
+				951F387175934B019462B79E /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/edtaa3func/CMakeLists.txt */,
+			);
+			name = ext_edtaa3func;
+			sourceTree = "<group>";
+		};
+		A93C962B31264533A1432863 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				8EB78DA3CC8E45A594E22DC6 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/recast/DebugUtils/DebugDraw.cpp */,
+				FC9F1BAE617143309B668FA8 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/recast/DebugUtils/DetourDebugDraw.cpp */,
+				FD6B94610E014B1EAD962E3B /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/recast/Detour/DetourAlloc.cpp */,
+				A7033E5329BD41CD9BC4BA22 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/recast/Detour/DetourCommon.cpp */,
+				7A644E2291F140F08E2587C6 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/recast/Detour/DetourNavMesh.cpp */,
+				4BE1EEA9530D4844AE248B1F /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/recast/Detour/DetourNavMeshBuilder.cpp */,
+				1E0CEE043DDD46C88548CE6B /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/recast/Detour/DetourNavMeshQuery.cpp */,
+				4F95F2987D094CEA877CE6F1 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/recast/Detour/DetourNode.cpp */,
+				BBF87447A2AC479FBE07F056 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/recast/DetourCrowd/DetourCrowd.cpp */,
+				C0B3D44B88B84319B5874663 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/recast/DetourCrowd/DetourLocalBoundary.cpp */,
+				424DFBA5FEE649DDA0F9DDC0 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/recast/DetourCrowd/DetourObstacleAvoidance.cpp */,
+				6313AEE0FB7F4838850F8698 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/recast/DetourCrowd/DetourPathCorridor.cpp */,
+				CF6A7A2E47B844098CCBACBD /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/recast/DetourCrowd/DetourPathQueue.cpp */,
+				28FCBED537DF42EC990422B5 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/recast/DetourCrowd/DetourProximityGrid.cpp */,
+				D57C707841884155B4F3FC09 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/recast/DetourTileCache/DetourTileCache.cpp */,
+				D1C30A80F96E42D98412F90F /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/recast/DetourTileCache/DetourTileCacheBuilder.cpp */,
+				54D5ACC0789C46EC9227B00D /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/recast/fastlz/fastlz.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		A99D96E23AAA47CF9CEE43C4 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				F6CC95DAC3C043869F8D1795 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/ConvertUTF/ConvertUTF.c */,
+				677713272E29431BB5E2FC61 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/ConvertUTF/ConvertUTFWrapper.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		C8F11BE20BA148498626CB72 /* ext_xxtea */ = {
+			isa = PBXGroup;
+			children = (
+				A777329F7CA84E959E3BFFD8 /* Source Files */,
+				CE8F9C4C3E4A4A55813C9FC8 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/xxtea/CMakeLists.txt */,
+			);
+			name = ext_xxtea;
+			sourceTree = "<group>";
+		};
+		D24C7E4CDD7F430A83B0F151 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				07710E2769934737BAC4E94A /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/empty.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		D461686DAD8841C7BD46FD17 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				4E16C493876C4B599FF880C2 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/md5/md5.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		D9B7AFFEAE8B4A65878CA466 /* ext_xxhash */ = {
+			isa = PBXGroup;
+			children = (
+				3730420F314744708A66CB49 /* Source Files */,
+				8C693781A8A340D4AAEDFE91 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/xxhash/CMakeLists.txt */,
+			);
+			name = ext_xxhash;
+			sourceTree = "<group>";
+		};
+		F5918E658C1C4DBA8AE06CA3 /* External */ = {
+			isa = PBXGroup;
+			children = (
+				3E7C9E8B7C8D4A67A3C85015 /* external */,
+				4CEF3C856282420CA5CDF8E7 /* ext_recast */,
+				4C0071931DCE448CA54AC8AE /* ext_tinyxml2 */,
+				D9B7AFFEAE8B4A65878CA466 /* ext_xxhash */,
+				C8F11BE20BA148498626CB72 /* ext_xxtea */,
+				3884C21228C0455B96A4ABC9 /* ext_clipper */,
+				A7C1AB19EC004C968B8C239C /* ext_edtaa3func */,
+				778C3A71CD5D4CC89A46C682 /* ext_convertUTF */,
+				984A1B7A3FB545DBB7CBB6DB /* ext_poly2tri */,
+				41EDAFFCFEB34E1D97F489EB /* ext_md5 */,
+				52EB6C595A4E47CF9A73DB77 /* ext_unzip */,
+			);
+			name = External;
+			sourceTree = "<group>";
+		};
+		FA746B56426B4F0D8483C112 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0407001ED44542BC80269D9C /* external */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1205C1842FF14A7B84C00B3B /* Build configuration list for PBXNativeTarget "external" */;
+			buildPhases = (
+				5DDE94C8B4684DD19B117882 /* Sources */,
+				D006BBF7EDB14AB6BACA7BAE /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2BED367D68340D4B80E40CD /* PBXTargetDependency */,
+				5396C0A2A1164A4DBBC8883E /* PBXTargetDependency */,
+				027C74297DD54433BBB6950A /* PBXTargetDependency */,
+				B9D78CA9C4E94F84837396C8 /* PBXTargetDependency */,
+				CEC3982BEB9746859143EB70 /* PBXTargetDependency */,
+				AF7785C8AADD4902AB82DAD2 /* PBXTargetDependency */,
+				E2396246B3DF44508D4B8678 /* PBXTargetDependency */,
+				654A5ADD47C348378FA50493 /* PBXTargetDependency */,
+				4CD01B3A80794F2B98159480 /* PBXTargetDependency */,
+				FFABE51F9E964DAFBBB4DEFB /* PBXTargetDependency */,
+				93760721207F4DC48DFAC062 /* PBXTargetDependency */,
+			);
+			name = external;
+			productName = external;
+			productReference = D24EF3C3B89F46C2A0740DFF /* external */;
+			productType = "com.apple.product-type.library.static";
+		};
+		198C8B8AD2C146CCADCDB620 /* ext_tinyxml2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA75A91B538D495383893DD9 /* Build configuration list for PBXNativeTarget "ext_tinyxml2" */;
+			buildPhases = (
+				FAC1F3043F4A4EC39CCD533D /* Sources */,
+				BC74071817D04465B553F789 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ext_tinyxml2;
+			productName = ext_tinyxml2;
+			productReference = 7F2C6F7F114242C4AEA3A3ED /* ext_tinyxml2 */;
+			productType = "com.apple.product-type.library.static";
+		};
+		2DEE1896AFC048F591DCD65A /* ext_unzip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C63264B84C74411E87302AC8 /* Build configuration list for PBXNativeTarget "ext_unzip" */;
+			buildPhases = (
+				5A1A25CE66654676A8B646CB /* Sources */,
+				BAC00C22E23345AA880E4E77 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ext_unzip;
+			productName = ext_unzip;
+			productReference = 3F558C56A25A4501B3F28FB7 /* ext_unzip */;
+			productType = "com.apple.product-type.library.static";
+		};
+		393E283493D9459EA461012E /* ext_convertUTF */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37DDF8639B2841B9985A555F /* Build configuration list for PBXNativeTarget "ext_convertUTF" */;
+			buildPhases = (
+				0DDD631C41CD4F7EA4E78676 /* Sources */,
+				B2A6D3B298CC4260A09A5DDE /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ext_convertUTF;
+			productName = ext_convertUTF;
+			productReference = 067116CF70D54FBE97F3E481 /* ext_convertUTF */;
+			productType = "com.apple.product-type.library.static";
+		};
+		402B80D1166746749F6364EA /* ext_xxtea */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFE58328FBF24B7CACB080CC /* Build configuration list for PBXNativeTarget "ext_xxtea" */;
+			buildPhases = (
+				AFA734A03092444FBABA5C5B /* Sources */,
+				1F47C0D7E2834E1A9B9110A0 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ext_xxtea;
+			productName = ext_xxtea;
+			productReference = F7D64EB3E5B848F9AD2C8629 /* ext_xxtea */;
+			productType = "com.apple.product-type.library.static";
+		};
+		532FCDAD959D46BFBF8577E2 /* ext_recast */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADED2B6658734EAC8FD63F7E /* Build configuration list for PBXNativeTarget "ext_recast" */;
+			buildPhases = (
+				734213F75A6D4481B8542202 /* Sources */,
+				457CADBD97454913B8677D91 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ext_recast;
+			productName = ext_recast;
+			productReference = 93199FE2AB4E4168BCEF58A5 /* ext_recast */;
+			productType = "com.apple.product-type.library.static";
+		};
+		640F5581A5D845AA815CB598 /* ext_edtaa3func */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B7054A46605476D98603F6A /* Build configuration list for PBXNativeTarget "ext_edtaa3func" */;
+			buildPhases = (
+				1AABCFE95E9F437FA575AF3E /* Sources */,
+				F6A739489C174CF6A592F2F6 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ext_edtaa3func;
+			productName = ext_edtaa3func;
+			productReference = F48F94A91D88475D886CCA24 /* ext_edtaa3func */;
+			productType = "com.apple.product-type.library.static";
+		};
+		76B84EF4BE144386BED45241 /* ext_clipper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF99775CEFC54B21A4400852 /* Build configuration list for PBXNativeTarget "ext_clipper" */;
+			buildPhases = (
+				846B4B2A09724311961F3FFA /* Sources */,
+				CB53570B417A4DB987EBFEE7 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ext_clipper;
+			productName = ext_clipper;
+			productReference = BB25BC4655534C4DAF214B76 /* ext_clipper */;
+			productType = "com.apple.product-type.library.static";
+		};
+		84D17037A0B74AF088439647 /* ext_xxhash */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BC43C9A9EDC42C2911AA33A /* Build configuration list for PBXNativeTarget "ext_xxhash" */;
+			buildPhases = (
+				5374A940DB8143568D6EAE92 /* Sources */,
+				21CD728BC7F14559ADF8684F /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ext_xxhash;
+			productName = ext_xxhash;
+			productReference = 4C2CB9EC3B6E45B780296E3F /* ext_xxhash */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B181B950CA564BE09FF606E1 /* ext_md5 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F140759C10C0450C9788F2A2 /* Build configuration list for PBXNativeTarget "ext_md5" */;
+			buildPhases = (
+				F78B204D504D4B98ACCEFCFC /* Sources */,
+				D85C00377F5D4003B3C6B6F3 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ext_md5;
+			productName = ext_md5;
+			productReference = 2F89D3AD48C94CBDB7B8287C /* ext_md5 */;
+			productType = "com.apple.product-type.library.static";
+		};
+		FDE4D07F91244B9C83BEE589 /* ext_poly2tri */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1008B68EB579498DA3307665 /* Build configuration list for PBXNativeTarget "ext_poly2tri" */;
+			buildPhases = (
+				7497BCBE524F4827AF728468 /* Sources */,
+				2CA3BC7AC92A46B2B5A54A1D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ext_poly2tri;
+			productName = ext_poly2tri;
+			productReference = D3D3F7EF67894BE8A9E78D09 /* ext_poly2tri */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		95D412E540744D2A88814092 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1250;
+			};
+			buildConfigurationList = 7B76A32FFD3C4CAC8D09E9CC /* Build configuration list for PBXProject "external" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				477C8E032D204FABA1926852 /* Debug */,
+				4BA87DA652AD489C8A1C63F9 /* Release */,
+				FC576AA52B524A689255B88B /* MinSizeRel */,
+				2ADBDE0550F24BD981E06B89 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 65C3621F04E445CC9DF7F571;
+			projectDirPath = ../../../cocos2d/external;
+			projectRoot = "";
+			targets = (
+				33FBA7142CFD471EA0076D3B /* ALL_BUILD */,
+				692A0FAD294D4647A7A863AD /* ZERO_CHECK */,
+				76B84EF4BE144386BED45241 /* ext_clipper */,
+				393E283493D9459EA461012E /* ext_convertUTF */,
+				640F5581A5D845AA815CB598 /* ext_edtaa3func */,
+				B181B950CA564BE09FF606E1 /* ext_md5 */,
+				FDE4D07F91244B9C83BEE589 /* ext_poly2tri */,
+				532FCDAD959D46BFBF8577E2 /* ext_recast */,
+				198C8B8AD2C146CCADCDB620 /* ext_tinyxml2 */,
+				2DEE1896AFC048F591DCD65A /* ext_unzip */,
+				84D17037A0B74AF088439647 /* ext_xxhash */,
+				402B80D1166746749F6364EA /* ext_xxtea */,
+				0407001ED44542BC80269D9C /* external */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1BB81A80641181B87DCB831D /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+"/Users/v.rezvancev/BattleGame/BattleGame/mac-build/engine/external/CMakeFiles/ALL_BUILD"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/v.rezvancev/BattleGame/BattleGame/mac-build/engine/external
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/v.rezvancev/BattleGame/BattleGame/mac-build/engine/external
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/v.rezvancev/BattleGame/BattleGame/mac-build/engine/external
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/v.rezvancev/BattleGame/BattleGame/mac-build/engine/external
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		4A24DFF963CDC3478655B154 /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+"/Users/v.rezvancev/BattleGame/BattleGame/mac-build/engine/external/CMakeFiles/ZERO_CHECK"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/v.rezvancev/BattleGame/BattleGame/mac-build/engine/external
+  make -f /Users/v.rezvancev/BattleGame/BattleGame/mac-build/engine/external/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/v.rezvancev/BattleGame/BattleGame/mac-build/engine/external
+  make -f /Users/v.rezvancev/BattleGame/BattleGame/mac-build/engine/external/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/v.rezvancev/BattleGame/BattleGame/mac-build/engine/external
+  make -f /Users/v.rezvancev/BattleGame/BattleGame/mac-build/engine/external/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/v.rezvancev/BattleGame/BattleGame/mac-build/engine/external
+  make -f /Users/v.rezvancev/BattleGame/BattleGame/mac-build/engine/external/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0DDD631C41CD4F7EA4E78676 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1E7B69E58AA4A3CA8D84414 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/ConvertUTF/ConvertUTF.c */,
+				C9DF153DFE9D476C92ACB2E3 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/ConvertUTF/ConvertUTFWrapper.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AABCFE95E9F437FA575AF3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				720D04E360464245B826A797 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/edtaa3func/edtaa3func.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5374A940DB8143568D6EAE92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDCFAFD652EC436188132248 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/xxhash/xxhash.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A1A25CE66654676A8B646CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CB3EA5B26BD48C9BCED3881 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/unzip/ioapi.cpp */,
+				6DD3C126B9AC43B7B307CB4C /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/unzip/ioapi_mem.cpp */,
+				547DB3BCD6BC4FA8A07F6ED8 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/unzip/unzip.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DDE94C8B4684DD19B117882 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50A62F6EEF5C4442AFEDF137 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/empty.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		734213F75A6D4481B8542202 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8E0C367F12041C5A23D11BF /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/recast/DebugUtils/DebugDraw.cpp */,
+				11DD7824DA084C8898B4FA2C /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/recast/DebugUtils/DetourDebugDraw.cpp */,
+				9FD66AE32084410488293E82 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/recast/Detour/DetourAlloc.cpp */,
+				910A7C51B5DE4801B5714476 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/recast/Detour/DetourCommon.cpp */,
+				222BC46C052843829AF4BEA6 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/recast/Detour/DetourNavMesh.cpp */,
+				822DB73F79E94F32B0C6D794 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/recast/Detour/DetourNavMeshBuilder.cpp */,
+				CC87B88F90404478BF6D3A9A /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/recast/Detour/DetourNavMeshQuery.cpp */,
+				7E770DE8DE724D359566ADF6 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/recast/Detour/DetourNode.cpp */,
+				D376E0E606B1470EACE891B9 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/recast/DetourCrowd/DetourCrowd.cpp */,
+				E1D9D22E67964007AB49F5E1 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/recast/DetourCrowd/DetourLocalBoundary.cpp */,
+				452DF0F8C75C48948C868591 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/recast/DetourCrowd/DetourObstacleAvoidance.cpp */,
+				11C44B3D1353407DA905A5F7 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/recast/DetourCrowd/DetourPathCorridor.cpp */,
+				CCECA937E8D44B778AB937AF /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/recast/DetourCrowd/DetourPathQueue.cpp */,
+				0B31A3F4B1AA4567807F1581 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/recast/DetourCrowd/DetourProximityGrid.cpp */,
+				2FDEBE1EA0CA4A3F8B95272D /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/recast/DetourTileCache/DetourTileCache.cpp */,
+				8DA0603B6530474494357661 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/recast/DetourTileCache/DetourTileCacheBuilder.cpp */,
+				8610CBDF50624DDB97FBD4B1 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/recast/fastlz/fastlz.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7497BCBE524F4827AF728468 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC90D4FFF1FB4FBFB2AF4A07 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/poly2tri/common/shapes.cc */,
+				B51012E2BB52439EAD36AAA2 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/poly2tri/sweep/advancing_front.cc */,
+				0C2CF2B8BCC94243AF7F2716 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/poly2tri/sweep/cdt.cc */,
+				5AFFD76487854FA6A92D711F /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/poly2tri/sweep/sweep.cc */,
+				069633A9FBD64F8889333D8A /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/poly2tri/sweep/sweep_context.cc */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846B4B2A09724311961F3FFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0F2D8DE54D642808A5C011C /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/clipper/clipper.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFA734A03092444FBABA5C5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47C404FB7BBF4DAB854CA3D1 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/xxtea/xxtea.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F78B204D504D4B98ACCEFCFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE72154A986A40CBB1550807 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/md5/md5.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAC1F3043F4A4EC39CCD533D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3331BDC3C92E4A49958AFA75 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/tinyxml2/tinyxml2.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		027C74297DD54433BBB6950A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 198C8B8AD2C146CCADCDB620 /* ext_tinyxml2 */;
+			targetProxy = E451EC04CADE4A799E9FCB31 /* PBXContainerItemProxy */;
+		};
+		08B17D88B0CF4BB3A819E86B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B181B950CA564BE09FF606E1 /* ext_md5 */;
+			targetProxy = 63FBE9AA82DC4447810DDF60 /* PBXContainerItemProxy */;
+		};
+		0EE5478EB21C4F6CBC74AFA0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2DEE1896AFC048F591DCD65A /* ext_unzip */;
+			targetProxy = 583132E73E3C4DDE8DF99EB0 /* PBXContainerItemProxy */;
+		};
+		1AB057419C7342FF9FB8F103 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84D17037A0B74AF088439647 /* ext_xxhash */;
+			targetProxy = 27F1866CE01F45989EEEBC7F /* PBXContainerItemProxy */;
+		};
+		3080A2F2F46845FFBE6A4BC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0407001ED44542BC80269D9C /* external */;
+			targetProxy = CF8FB129F5E3447A8F4EDCF5 /* PBXContainerItemProxy */;
+		};
+		4CD01B3A80794F2B98159480 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDE4D07F91244B9C83BEE589 /* ext_poly2tri */;
+			targetProxy = B7418E49E4D549A5806B260A /* PBXContainerItemProxy */;
+		};
+		5396C0A2A1164A4DBBC8883E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 532FCDAD959D46BFBF8577E2 /* ext_recast */;
+			targetProxy = 77B391CC64B94306BC49C9FE /* PBXContainerItemProxy */;
+		};
+		64BEDD3C7FF949BFB247DA65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDE4D07F91244B9C83BEE589 /* ext_poly2tri */;
+			targetProxy = 81BE0276CD984EAEAE0338F0 /* PBXContainerItemProxy */;
+		};
+		654A5ADD47C348378FA50493 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 393E283493D9459EA461012E /* ext_convertUTF */;
+			targetProxy = 517947B61E1E4DDDBC1691D9 /* PBXContainerItemProxy */;
+		};
+		658CCC3B4339487DBF30E72C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 402B80D1166746749F6364EA /* ext_xxtea */;
+			targetProxy = 13C15D8CC58A492C95B1C62E /* PBXContainerItemProxy */;
+		};
+		7D9D8B71D504485EB8214DE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 76B84EF4BE144386BED45241 /* ext_clipper */;
+			targetProxy = 1DF91757CDC8446B9CCA61DA /* PBXContainerItemProxy */;
+		};
+		93760721207F4DC48DFAC062 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2DEE1896AFC048F591DCD65A /* ext_unzip */;
+			targetProxy = 6E2F423EF57944A4AF88C551 /* PBXContainerItemProxy */;
+		};
+		9DC4B9F162024ECFA5D5C13A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 198C8B8AD2C146CCADCDB620 /* ext_tinyxml2 */;
+			targetProxy = 1157BC3FCC3B4E9B88EF436D /* PBXContainerItemProxy */;
+		};
+		AF7785C8AADD4902AB82DAD2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 76B84EF4BE144386BED45241 /* ext_clipper */;
+			targetProxy = AD45AC16517D4F0BAC65DFD3 /* PBXContainerItemProxy */;
+		};
+		B3A14E6F014D45229F175E3A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 692A0FAD294D4647A7A863AD /* ZERO_CHECK */;
+			targetProxy = 0BEC2DDD8B1D402E801A20D9 /* PBXContainerItemProxy */;
+		};
+		B9D78CA9C4E94F84837396C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84D17037A0B74AF088439647 /* ext_xxhash */;
+			targetProxy = 08FBDB5CBBA34FA68225AE1D /* PBXContainerItemProxy */;
+		};
+		CEC3982BEB9746859143EB70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 402B80D1166746749F6364EA /* ext_xxtea */;
+			targetProxy = D9E5672B0B2541159494D146 /* PBXContainerItemProxy */;
+		};
+		D2BED367D68340D4B80E40CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 692A0FAD294D4647A7A863AD /* ZERO_CHECK */;
+			targetProxy = 18B0C2FDE50F4C01A7830EDC /* PBXContainerItemProxy */;
+		};
+		DB1DFE7680184030AF299C47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 640F5581A5D845AA815CB598 /* ext_edtaa3func */;
+			targetProxy = DD3A400BEA594A47924CD125 /* PBXContainerItemProxy */;
+		};
+		E2396246B3DF44508D4B8678 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 640F5581A5D845AA815CB598 /* ext_edtaa3func */;
+			targetProxy = 87C363A79C774B9090C7A890 /* PBXContainerItemProxy */;
+		};
+		EB700D149BE74D8CA62B5185 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 532FCDAD959D46BFBF8577E2 /* ext_recast */;
+			targetProxy = 793102C2465F4CC3A922B074 /* PBXContainerItemProxy */;
+		};
+		ED55CCBFD8704A6D91364009 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 393E283493D9459EA461012E /* ext_convertUTF */;
+			targetProxy = 7E5E3F743607474BA7EAA752 /* PBXContainerItemProxy */;
+		};
+		FFABE51F9E964DAFBBB4DEFB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B181B950CA564BE09FF606E1 /* ext_md5 */;
+			targetProxy = A5F4652D89714B3182A35943 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03DB90CA18B94086BB5291E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/v.rezvancev/BattleGame/BattleGame/mac-build/lib/Debug";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/tinyxml2/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_tinyxml2;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/v.rezvancev/BattleGame/BattleGame/mac-build/engine/external/tinyxml2";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		03EF503B9BD043F189CA2E63 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/v.rezvancev/BattleGame/BattleGame/mac-build/lib/MinSizeRel";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/recast/..,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    -DNDEBUG '-std=gnu99' ";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_recast;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/v.rezvancev/BattleGame/BattleGame/mac-build/engine/external/recast";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		083B72B1E1934BC69175D190 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/v.rezvancev/BattleGame/BattleGame/mac-build/engine/external";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		136BB758319547F0A9B5B7CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/v.rezvancev/BattleGame/BattleGame/mac-build/lib/Debug";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/xxtea/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_xxtea;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/v.rezvancev/BattleGame/BattleGame/mac-build/engine/external/xxtea";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		179AAEB841BA4451A0993A94 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/v.rezvancev/BattleGame/BattleGame/mac-build/lib/RelWithDebInfo";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/xxhash/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "       -DNDEBUG '-std=gnu99' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_xxhash;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/v.rezvancev/BattleGame/BattleGame/mac-build/engine/external/xxhash";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		19EE88EE92A347C286766753 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/v.rezvancev/BattleGame/BattleGame/mac-build/lib/Release";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/ConvertUTF/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    -DNDEBUG '-std=gnu99' ";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_convertUTF;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/v.rezvancev/BattleGame/BattleGame/mac-build/engine/external/ConvertUTF";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		1B7AE7194070418D83444924 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/v.rezvancev/BattleGame/BattleGame/mac-build/lib/MinSizeRel";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/clipper/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_clipper;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/v.rezvancev/BattleGame/BattleGame/mac-build/engine/external/clipper";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		1D48F5572EFC49338A1927F6 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/v.rezvancev/BattleGame/BattleGame/mac-build/lib/MinSizeRel";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/xxtea/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_xxtea;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/v.rezvancev/BattleGame/BattleGame/mac-build/engine/external/xxtea";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		1D84D5EC99BA419499C6ED95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/v.rezvancev/BattleGame/BattleGame/mac-build/lib/Release";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/tinyxml2/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_tinyxml2;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/v.rezvancev/BattleGame/BattleGame/mac-build/engine/external/tinyxml2";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		1E39C480AF9C462BB4C2F8BC /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/v.rezvancev/BattleGame/BattleGame/mac-build/engine/external";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		23DD18E5F41F40BAB26F7252 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/v.rezvancev/BattleGame/BattleGame/mac-build/lib/Release";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/clipper/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_clipper;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/v.rezvancev/BattleGame/BattleGame/mac-build/engine/external/clipper";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		270ECD59CD7A41E98C74BA4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/v.rezvancev/BattleGame/BattleGame/mac-build/lib/Release";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/xxtea/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_xxtea;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/v.rezvancev/BattleGame/BattleGame/mac-build/engine/external/xxtea";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		27B4C602C02B40C3A6FD0AE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/v.rezvancev/BattleGame/BattleGame/mac-build/lib/Release";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/unzip/.,/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/zlib/include,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_unzip;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/v.rezvancev/BattleGame/BattleGame/mac-build/engine/external/unzip";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		2DF625FBA1CD4F45910FECC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/v.rezvancev/BattleGame/BattleGame/mac-build/lib/Release";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",LWS_WITH_LIBUV);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/recast/..,/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/tinyxml2/.,/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/xxhash/.,/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/xxtea/.,/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/clipper/.,/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/edtaa3func/.,/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/ConvertUTF/.,/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/poly2tri/..,/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/md5/..,/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/unzip/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = external;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/v.rezvancev/BattleGame/BattleGame/mac-build/engine/external";
+				SYSTEM_HEADER_SEARCH_PATHS = (/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/Box2D/include,/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/chipmunk/include,/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/freetype2/include/mac/freetype2,/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/bullet/include,/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/bullet/include/bullet,/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/jpeg/include/mac,/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/openssl/include/mac,/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/uv/include,/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/webp/include/mac,/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/websockets/include/mac,/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/curl/include/mac,/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/png/include/mac,/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/glfw3/include/mac,/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/zlib/include,"/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/glsl-optimizer/include","$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		2E0A7028B6C548A3B59491E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/v.rezvancev/BattleGame/BattleGame/mac-build/engine/external";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		30023090F26E4A17943FB272 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/v.rezvancev/BattleGame/BattleGame/mac-build/lib/RelWithDebInfo";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/ConvertUTF/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "       -DNDEBUG '-std=gnu99' ";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_convertUTF;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/v.rezvancev/BattleGame/BattleGame/mac-build/engine/external/ConvertUTF";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		30D43E09221C4350ACC3F02A /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/v.rezvancev/BattleGame/BattleGame/mac-build/lib/RelWithDebInfo";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/recast/..,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "       -DNDEBUG '-std=gnu99' ";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_recast;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/v.rezvancev/BattleGame/BattleGame/mac-build/engine/external/recast";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		3358D91B0ED1436BB62706D8 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/v.rezvancev/BattleGame/BattleGame/mac-build/lib/RelWithDebInfo";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/clipper/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_clipper;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/v.rezvancev/BattleGame/BattleGame/mac-build/engine/external/clipper";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		3497F0034F1348C69E7640CB /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/v.rezvancev/BattleGame/BattleGame/mac-build/lib/RelWithDebInfo";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/xxtea/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_xxtea;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/v.rezvancev/BattleGame/BattleGame/mac-build/engine/external/xxtea";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		36AE02643BE94539907B3677 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/v.rezvancev/BattleGame/BattleGame/mac-build/lib/Debug";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/poly2tri/..,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_poly2tri;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/v.rezvancev/BattleGame/BattleGame/mac-build/engine/external/poly2tri";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		3BC2E39279D844388688B185 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/v.rezvancev/BattleGame/BattleGame/mac-build/lib/Debug";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",LWS_WITH_LIBUV);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/recast/..,/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/tinyxml2/.,/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/xxhash/.,/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/xxtea/.,/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/clipper/.,/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/edtaa3func/.,/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/ConvertUTF/.,/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/poly2tri/..,/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/md5/..,/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/unzip/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = external;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/v.rezvancev/BattleGame/BattleGame/mac-build/engine/external";
+				SYSTEM_HEADER_SEARCH_PATHS = (/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/Box2D/include,/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/chipmunk/include,/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/freetype2/include/mac/freetype2,/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/bullet/include,/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/bullet/include/bullet,/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/jpeg/include/mac,/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/openssl/include/mac,/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/uv/include,/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/webp/include/mac,/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/websockets/include/mac,/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/curl/include/mac,/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/png/include/mac,/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/glfw3/include/mac,/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/zlib/include,"/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/glsl-optimizer/include","$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		44A16E722C704D9EA5B64509 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/v.rezvancev/BattleGame/BattleGame/mac-build/lib/RelWithDebInfo";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/tinyxml2/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_tinyxml2;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/v.rezvancev/BattleGame/BattleGame/mac-build/engine/external/tinyxml2";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		50F7DF941CB0422196130E34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/v.rezvancev/BattleGame/BattleGame/mac-build/lib/Debug";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/unzip/.,/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/zlib/include,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_unzip;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/v.rezvancev/BattleGame/BattleGame/mac-build/engine/external/unzip";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		5F1F2E779FA14AB4B555BC32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/v.rezvancev/BattleGame/BattleGame/mac-build/lib/Debug";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/ConvertUTF/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "   '-std=gnu99' ";
+				OTHER_CPLUSPLUSFLAGS = "   '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_convertUTF;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/v.rezvancev/BattleGame/BattleGame/mac-build/engine/external/ConvertUTF";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		613869AB964B4341BBF6649E /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/v.rezvancev/BattleGame/BattleGame/mac-build/lib/RelWithDebInfo";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/md5/..,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "       -DNDEBUG '-std=gnu99' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_md5;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/v.rezvancev/BattleGame/BattleGame/mac-build/engine/external/md5";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		640E6BE929234F3FA850D80B /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/v.rezvancev/BattleGame/BattleGame/mac-build/lib/MinSizeRel";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/md5/..,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    -DNDEBUG '-std=gnu99' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_md5;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/v.rezvancev/BattleGame/BattleGame/mac-build/engine/external/md5";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		68F32BF8B4934D4E9F0F8790 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/v.rezvancev/BattleGame/BattleGame/mac-build/lib/Debug";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/xxhash/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "   '-std=gnu99' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_xxhash;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/v.rezvancev/BattleGame/BattleGame/mac-build/engine/external/xxhash";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		75732DE74D594DF5A07E2181 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/v.rezvancev/BattleGame/BattleGame/mac-build/engine/external";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		789412E4279C4EC5872496DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/v.rezvancev/BattleGame/BattleGame/mac-build/lib/Debug";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/clipper/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_clipper;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/v.rezvancev/BattleGame/BattleGame/mac-build/engine/external/clipper";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		84CE69623C8D432585207B4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACOSX_DEPLOYMENT_TARGET = 11.2;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
+				SYMROOT = "/Users/v.rezvancev/BattleGame/BattleGame/mac-build/engine/external/build";
+			};
+			name = Debug;
+		};
+		85354662EEE24318A0F53AFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/v.rezvancev/BattleGame/BattleGame/mac-build/engine/external";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		8A0CA31041EC4194A38D4CED /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/v.rezvancev/BattleGame/BattleGame/mac-build/lib/RelWithDebInfo";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/edtaa3func/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_edtaa3func;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/v.rezvancev/BattleGame/BattleGame/mac-build/engine/external/edtaa3func";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		94C12266CA6F4F59955E6781 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/v.rezvancev/BattleGame/BattleGame/mac-build/lib/MinSizeRel";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/unzip/.,/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/zlib/include,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_unzip;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/v.rezvancev/BattleGame/BattleGame/mac-build/engine/external/unzip";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		9F8EB910EFDB41839DF1DB2D /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/v.rezvancev/BattleGame/BattleGame/mac-build/lib/MinSizeRel";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/edtaa3func/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_edtaa3func;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/v.rezvancev/BattleGame/BattleGame/mac-build/engine/external/edtaa3func";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		A0F0B7479B2F49F58634766A /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/v.rezvancev/BattleGame/BattleGame/mac-build/lib/RelWithDebInfo";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/poly2tri/..,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_poly2tri;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/v.rezvancev/BattleGame/BattleGame/mac-build/engine/external/poly2tri";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		A170D6AB2B59494A9614E378 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/v.rezvancev/BattleGame/BattleGame/mac-build/lib/Debug";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/edtaa3func/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_edtaa3func;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/v.rezvancev/BattleGame/BattleGame/mac-build/engine/external/edtaa3func";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		A6B7A1C569E74D74904B3A33 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/v.rezvancev/BattleGame/BattleGame/mac-build/lib/MinSizeRel";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",LWS_WITH_LIBUV);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/recast/..,/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/tinyxml2/.,/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/xxhash/.,/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/xxtea/.,/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/clipper/.,/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/edtaa3func/.,/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/ConvertUTF/.,/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/poly2tri/..,/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/md5/..,/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/unzip/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = external;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/v.rezvancev/BattleGame/BattleGame/mac-build/engine/external";
+				SYSTEM_HEADER_SEARCH_PATHS = (/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/Box2D/include,/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/chipmunk/include,/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/freetype2/include/mac/freetype2,/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/bullet/include,/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/bullet/include/bullet,/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/jpeg/include/mac,/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/openssl/include/mac,/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/uv/include,/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/webp/include/mac,/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/websockets/include/mac,/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/curl/include/mac,/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/png/include/mac,/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/glfw3/include/mac,/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/zlib/include,"/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/glsl-optimizer/include","$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		A6B96030C8AA493E9E17448A /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/v.rezvancev/BattleGame/BattleGame/mac-build/lib/MinSizeRel";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/ConvertUTF/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    -DNDEBUG '-std=gnu99' ";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_convertUTF;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/v.rezvancev/BattleGame/BattleGame/mac-build/engine/external/ConvertUTF";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		B2A17DD5FF6C412697B90969 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACOSX_DEPLOYMENT_TARGET = 11.2;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
+				SYMROOT = "/Users/v.rezvancev/BattleGame/BattleGame/mac-build/engine/external/build";
+			};
+			name = RelWithDebInfo;
+		};
+		C4702905CEEA4DC298DF73BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/v.rezvancev/BattleGame/BattleGame/mac-build/lib/Release";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/poly2tri/..,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_poly2tri;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/v.rezvancev/BattleGame/BattleGame/mac-build/engine/external/poly2tri";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		C962001318314E5F88EB534D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/v.rezvancev/BattleGame/BattleGame/mac-build/engine/external";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		CBD6D2F5DBF54414BF11BE79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/v.rezvancev/BattleGame/BattleGame/mac-build/lib/Release";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/recast/..,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    -DNDEBUG '-std=gnu99' ";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_recast;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/v.rezvancev/BattleGame/BattleGame/mac-build/engine/external/recast";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		CC282820B3144CED8BE392B8 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/v.rezvancev/BattleGame/BattleGame/mac-build/lib/MinSizeRel";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/poly2tri/..,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_poly2tri;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/v.rezvancev/BattleGame/BattleGame/mac-build/engine/external/poly2tri";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		D20F9C93D59245E6A108874C /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACOSX_DEPLOYMENT_TARGET = 11.2;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
+				SYMROOT = "/Users/v.rezvancev/BattleGame/BattleGame/mac-build/engine/external/build";
+			};
+			name = MinSizeRel;
+		};
+		D308B81359A045A4AFFEDF93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACOSX_DEPLOYMENT_TARGET = 11.2;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
+				SYMROOT = "/Users/v.rezvancev/BattleGame/BattleGame/mac-build/engine/external/build";
+			};
+			name = Release;
+		};
+		D5415D7364DD45149F4CF54E /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/v.rezvancev/BattleGame/BattleGame/mac-build/lib/MinSizeRel";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/xxhash/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    -DNDEBUG '-std=gnu99' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_xxhash;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/v.rezvancev/BattleGame/BattleGame/mac-build/engine/external/xxhash";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		D62EF2E5B607400E9C470A9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/v.rezvancev/BattleGame/BattleGame/mac-build/engine/external";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		E19F6EF4E9844026B9EB73AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/v.rezvancev/BattleGame/BattleGame/mac-build/lib/Release";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/edtaa3func/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_edtaa3func;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/v.rezvancev/BattleGame/BattleGame/mac-build/engine/external/edtaa3func";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		E600138AF3544525B8EA9194 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/v.rezvancev/BattleGame/BattleGame/mac-build/lib/MinSizeRel";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/tinyxml2/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_tinyxml2;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/v.rezvancev/BattleGame/BattleGame/mac-build/engine/external/tinyxml2";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		E665057B1FBF454DA78AC29A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/v.rezvancev/BattleGame/BattleGame/mac-build/lib/Debug";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/md5/..,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "   '-std=gnu99' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_md5;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/v.rezvancev/BattleGame/BattleGame/mac-build/engine/external/md5";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		E67F85345AC64CDBAD87C5D6 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/v.rezvancev/BattleGame/BattleGame/mac-build/lib/RelWithDebInfo";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",LWS_WITH_LIBUV);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/recast/..,/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/tinyxml2/.,/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/xxhash/.,/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/xxtea/.,/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/clipper/.,/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/edtaa3func/.,/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/ConvertUTF/.,/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/poly2tri/..,/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/md5/..,/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/unzip/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = external;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/v.rezvancev/BattleGame/BattleGame/mac-build/engine/external";
+				SYSTEM_HEADER_SEARCH_PATHS = (/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/Box2D/include,/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/chipmunk/include,/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/freetype2/include/mac/freetype2,/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/bullet/include,/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/bullet/include/bullet,/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/jpeg/include/mac,/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/openssl/include/mac,/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/uv/include,/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/webp/include/mac,/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/websockets/include/mac,/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/curl/include/mac,/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/png/include/mac,/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/glfw3/include/mac,/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/zlib/include,"/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/glsl-optimizer/include","$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		E8F33F69D6C54A41B9FBD36E /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/v.rezvancev/BattleGame/BattleGame/mac-build/engine/external";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		ED642B4E79D34999912FB624 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/v.rezvancev/BattleGame/BattleGame/mac-build/lib/Release";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/md5/..,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    -DNDEBUG '-std=gnu99' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_md5;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/v.rezvancev/BattleGame/BattleGame/mac-build/engine/external/md5";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		F70D56E5BEA941AA826F05F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/v.rezvancev/BattleGame/BattleGame/mac-build/lib/Release";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/xxhash/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    -DNDEBUG '-std=gnu99' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_xxhash;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/v.rezvancev/BattleGame/BattleGame/mac-build/engine/external/xxhash";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		F97B01B5AD064C33ABCD585D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/v.rezvancev/BattleGame/BattleGame/mac-build/lib/Debug";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/recast/..,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "   '-std=gnu99' ";
+				OTHER_CPLUSPLUSFLAGS = "   '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_recast;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/v.rezvancev/BattleGame/BattleGame/mac-build/engine/external/recast";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		FA370D1735114B60B9DE3B0A /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/v.rezvancev/BattleGame/BattleGame/mac-build/lib/RelWithDebInfo";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/unzip/.,/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/zlib/include,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_unzip;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/v.rezvancev/BattleGame/BattleGame/mac-build/engine/external/unzip";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1008B68EB579498DA3307665 /* Build configuration list for PBXNativeTarget "ext_poly2tri" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36AE02643BE94539907B3677 /* Debug */,
+				C4702905CEEA4DC298DF73BE /* Release */,
+				CC282820B3144CED8BE392B8 /* MinSizeRel */,
+				A0F0B7479B2F49F58634766A /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		1205C1842FF14A7B84C00B3B /* Build configuration list for PBXNativeTarget "external" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BC2E39279D844388688B185 /* Debug */,
+				2DF625FBA1CD4F45910FECC4 /* Release */,
+				A6B7A1C569E74D74904B3A33 /* MinSizeRel */,
+				E67F85345AC64CDBAD87C5D6 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		37DDF8639B2841B9985A555F /* Build configuration list for PBXNativeTarget "ext_convertUTF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F1F2E779FA14AB4B555BC32 /* Debug */,
+				19EE88EE92A347C286766753 /* Release */,
+				A6B96030C8AA493E9E17448A /* MinSizeRel */,
+				30023090F26E4A17943FB272 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		7B76A32FFD3C4CAC8D09E9CC /* Build configuration list for PBXProject "external" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84CE69623C8D432585207B4F /* Debug */,
+				D308B81359A045A4AFFEDF93 /* Release */,
+				D20F9C93D59245E6A108874C /* MinSizeRel */,
+				B2A17DD5FF6C412697B90969 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		88D2D96B05634025A0879F44 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85354662EEE24318A0F53AFE /* Debug */,
+				D62EF2E5B607400E9C470A9C /* Release */,
+				1E39C480AF9C462BB4C2F8BC /* MinSizeRel */,
+				75732DE74D594DF5A07E2181 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		8B7054A46605476D98603F6A /* Build configuration list for PBXNativeTarget "ext_edtaa3func" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A170D6AB2B59494A9614E378 /* Debug */,
+				E19F6EF4E9844026B9EB73AB /* Release */,
+				9F8EB910EFDB41839DF1DB2D /* MinSizeRel */,
+				8A0CA31041EC4194A38D4CED /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		8BC43C9A9EDC42C2911AA33A /* Build configuration list for PBXNativeTarget "ext_xxhash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68F32BF8B4934D4E9F0F8790 /* Debug */,
+				F70D56E5BEA941AA826F05F0 /* Release */,
+				D5415D7364DD45149F4CF54E /* MinSizeRel */,
+				179AAEB841BA4451A0993A94 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		ADED2B6658734EAC8FD63F7E /* Build configuration list for PBXNativeTarget "ext_recast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F97B01B5AD064C33ABCD585D /* Debug */,
+				CBD6D2F5DBF54414BF11BE79 /* Release */,
+				03EF503B9BD043F189CA2E63 /* MinSizeRel */,
+				30D43E09221C4350ACC3F02A /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B5A7851559034042A782FEA5 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C962001318314E5F88EB534D /* Debug */,
+				2E0A7028B6C548A3B59491E1 /* Release */,
+				E8F33F69D6C54A41B9FBD36E /* MinSizeRel */,
+				083B72B1E1934BC69175D190 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C63264B84C74411E87302AC8 /* Build configuration list for PBXNativeTarget "ext_unzip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50F7DF941CB0422196130E34 /* Debug */,
+				27B4C602C02B40C3A6FD0AE1 /* Release */,
+				94C12266CA6F4F59955E6781 /* MinSizeRel */,
+				FA370D1735114B60B9DE3B0A /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		DA75A91B538D495383893DD9 /* Build configuration list for PBXNativeTarget "ext_tinyxml2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03DB90CA18B94086BB5291E8 /* Debug */,
+				1D84D5EC99BA419499C6ED95 /* Release */,
+				E600138AF3544525B8EA9194 /* MinSizeRel */,
+				44A16E722C704D9EA5B64509 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		DF99775CEFC54B21A4400852 /* Build configuration list for PBXNativeTarget "ext_clipper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				789412E4279C4EC5872496DA /* Debug */,
+				23DD18E5F41F40BAB26F7252 /* Release */,
+				1B7AE7194070418D83444924 /* MinSizeRel */,
+				3358D91B0ED1436BB62706D8 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		DFE58328FBF24B7CACB080CC /* Build configuration list for PBXNativeTarget "ext_xxtea" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				136BB758319547F0A9B5B7CB /* Debug */,
+				270ECD59CD7A41E98C74BA4C /* Release */,
+				1D48F5572EFC49338A1927F6 /* MinSizeRel */,
+				3497F0034F1348C69E7640CB /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F140759C10C0450C9788F2A2 /* Build configuration list for PBXNativeTarget "ext_md5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E665057B1FBF454DA78AC29A /* Debug */,
+				ED642B4E79D34999912FB624 /* Release */,
+				640E6BE929234F3FA850D80B /* MinSizeRel */,
+				613869AB964B4341BBF6649E /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 95D412E540744D2A88814092 /* Project object */;
+}

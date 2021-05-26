@@ -1,0 +1,28 @@
+dependencies: \
+  /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/cocos/math/TransformUtils.cpp \
+  /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/cocos/math/TransformUtils.h \
+  /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/cocos/base/ccMacros.h \
+  /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/cocos/base/CCConsole.h \
+  /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/cocos/base/CCRef.h \
+  /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/cocos/platform/CCPlatformMacros.h \
+  /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/cocos/base/ccConfig.h \
+  /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/cocos/platform/CCPlatformConfig.h \
+  /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/cocos/platform/CCPlatformDefine.h \
+  /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/cocos/platform/ios/CCPlatformDefine-ios.h \
+  /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/cocos/platform/CCStdC.h \
+  /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/cocos/platform/ios/CCStdC-ios.h \
+  /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/cocos/base/ccRandom.h \
+  /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/cocos/math/CCAffineTransform.h \
+  /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/cocos/math/CCGeometry.h \
+  /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/cocos/math/CCMath.h \
+  /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/cocos/math/Vec2.h \
+  /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/cocos/math/CCMathBase.h \
+  /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/cocos/math/Vec2.inl \
+  /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/cocos/math/Vec3.h \
+  /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/cocos/math/Vec3.inl \
+  /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/cocos/math/Mat4.h \
+  /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/cocos/math/Vec4.h \
+  /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/cocos/math/Vec4.inl \
+  /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/cocos/math/Mat4.inl \
+  /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/cocos/math/Quaternion.h \
+  /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/cocos/math/Quaternion.inl

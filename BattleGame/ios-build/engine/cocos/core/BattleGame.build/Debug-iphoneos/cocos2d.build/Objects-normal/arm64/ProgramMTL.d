@@ -1,0 +1,21 @@
+dependencies: \
+  /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/cocos/renderer/backend/metal/ProgramMTL.mm \
+  /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/cocos/renderer/backend/metal/ProgramMTL.h \
+  /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/cocos/renderer/backend/metal/../Program.h \
+  /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/cocos/renderer/backend/metal/../Macros.h \
+  /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/cocos/base/CCRef.h \
+  /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/cocos/platform/CCPlatformMacros.h \
+  /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/cocos/base/ccConfig.h \
+  /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/cocos/platform/CCPlatformConfig.h \
+  /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/cocos/platform/CCPlatformDefine.h \
+  /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/cocos/platform/ios/CCPlatformDefine-ios.h \
+  /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/cocos/renderer/backend/metal/../Types.h \
+  /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/cocos/renderer/backend/metal/../ShaderCache.h \
+  /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/cocos/renderer/backend/ShaderModule.h \
+  /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/cocos/renderer/backend/metal/ShaderModuleMTL.h \
+  /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/cocos/renderer/backend/metal/../ShaderModule.h \
+  /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/cocos/base/ccMacros.h \
+  /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/cocos/base/CCConsole.h \
+  /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/cocos/platform/CCStdC.h \
+  /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/cocos/platform/ios/CCStdC-ios.h \
+  /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/cocos/base/ccRandom.h
