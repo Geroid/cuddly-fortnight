@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>application-identifier</key>
-	<string>PXR2P6394X.com.geroid.BattleGame</string>
+	<string>PXR2P6394X.com.rezvantsev.game</string>
 	<key>com.apple.developer.team-identifier</key>
 	<string>PXR2P6394X</string>
 	<key>get-task-allow</key>
 	<true/>
 	<key>keychain-access-groups</key>
 	<array>
-		<string>PXR2P6394X.com.geroid.BattleGame</string>
+		<string>PXR2P6394X.com.rezvantsev.game</string>
 	</array>
 </dict>
 </plist>

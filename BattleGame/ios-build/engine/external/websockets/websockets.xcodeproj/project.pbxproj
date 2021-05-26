@@ -7,147 +7,180 @@
 	objects = {
 
 /* Begin PBXAggregateTarget section */
-		DED5213515B74A0E8FB360F5 /* ALL_BUILD */ = {
+		0A4339B692494DA5BC45D55B /* ZERO_CHECK */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 2DAA5461D08848D8B346B05A /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildConfigurationList = 3BC02BE3E29147188B86A1AA /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
 			buildPhases = (
-				BE55962FE64CB5CC096CF572 /* Generate CMakeFiles/ALL_BUILD */,
-			);
-			dependencies = (
-				A840D34A3BC948B3AC4FD970 /* PBXTargetDependency */,
-			);
-			name = ALL_BUILD;
-			productName = ALL_BUILD;
-		};
-		FE25B1946F09484F9DD0D237 /* ZERO_CHECK */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = 4C2DF89A079646CBAF662B4C /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
-			buildPhases = (
-				7D9E8828D8DEA942DA458676 /* Generate CMakeFiles/ZERO_CHECK */,
+				3489D7E8D25ABC8E5D71DA19 /* Generate CMakeFiles/ZERO_CHECK */,
 			);
 			dependencies = (
 			);
 			name = ZERO_CHECK;
 			productName = ZERO_CHECK;
 		};
+		E3B561F0F8C64E8D908C6695 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 1EE7F5E03A5C447BAD628771 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				4C72C56E242403FE1D4DC950 /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				BDA7CDF71CE140CA84E698DB /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildStyle section */
-		10F07B7808324E2EB8E8A2FC /* Release */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = Release;
-		};
-		7697DC78E8B547409E20E4DF /* Debug */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = Debug;
-		};
-		ECE2ED87561445808F4CA54C /* RelWithDebInfo */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = RelWithDebInfo;
-		};
-		F6036798BC6043B0A8684827 /* MinSizeRel */ = {
+		5A77396891444850A560B8F8 /* MinSizeRel */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 			};
 			name = MinSizeRel;
 		};
+		A1CDC83DA9804628B8AABC11 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		A5A8AF65A6264B04890DEBBC /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		CB535683C07546CC999F9FC3 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
 /* End PBXBuildStyle section */
 
 /* Begin PBXContainerItemProxy section */
-		5E0272CBA8344071914AA636 /* PBXContainerItemProxy */ = {
+		D9FAC84110FF47EF955D892C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = F73A794810F74FCEAB4AC8AD /* Project object */;
+			containerPortal = B0A190556A3F4D199EE08634 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = FE25B1946F09484F9DD0D237;
+			remoteGlobalIDString = 0A4339B692494DA5BC45D55B;
 			remoteInfo = ZERO_CHECK;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		12A6CDA80D8B4E6E8499E52B /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/websockets/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		E0B37C0068D2461C91CE4F41 /* /Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/cocos2d/external/websockets/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
-		0A4BE12B1E874B6785A758BA /* ALL_BUILD */ = {
+		15469A34F59148DCA84ECD6E = {
 			isa = PBXGroup;
 			children = (
-				98F595C20EB346CCA328F6BD /* CMake Rules */,
-				12A6CDA80D8B4E6E8499E52B /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/websockets/CMakeLists.txt */,
+				DC1D3B39414346EABF6DF572 /* ALL_BUILD */,
+				A10B35B7BF7A4F43959BE9BF /* Products */,
+				9E7EB85260924F22995F00BD /* Frameworks */,
 			);
-			name = ALL_BUILD;
 			sourceTree = "<group>";
 		};
-		4005539B31534FAEB5B34317 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		98F595C20EB346CCA328F6BD /* CMake Rules */ = {
+		34CB0B4967E544378282F07D /* CMake Rules */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = "CMake Rules";
 			sourceTree = "<group>";
 		};
-		D7BA0977C31F4684A09AD2F3 = {
+		9E7EB85260924F22995F00BD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				0A4BE12B1E874B6785A758BA /* ALL_BUILD */,
-				F467FC3FE4F143839762FDBE /* Products */,
-				4005539B31534FAEB5B34317 /* Frameworks */,
 			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		F467FC3FE4F143839762FDBE /* Products */ = {
+		A10B35B7BF7A4F43959BE9BF /* Products */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
+		DC1D3B39414346EABF6DF572 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				34CB0B4967E544378282F07D /* CMake Rules */,
+				E0B37C0068D2461C91CE4F41 /* /Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/cocos2d/external/websockets/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXProject section */
-		F73A794810F74FCEAB4AC8AD /* Project object */ = {
+		B0A190556A3F4D199EE08634 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 1250;
 			};
-			buildConfigurationList = 048526D1A8924E71AFEB3071 /* Build configuration list for PBXProject "websockets" */;
+			buildConfigurationList = 0DC5574B2C7741F8B4F2E37B /* Build configuration list for PBXProject "websockets" */;
 			buildSettings = {
 			};
 			buildStyles = (
-				7697DC78E8B547409E20E4DF /* Debug */,
-				10F07B7808324E2EB8E8A2FC /* Release */,
-				F6036798BC6043B0A8684827 /* MinSizeRel */,
-				ECE2ED87561445808F4CA54C /* RelWithDebInfo */,
+				CB535683C07546CC999F9FC3 /* Debug */,
+				A5A8AF65A6264B04890DEBBC /* Release */,
+				5A77396891444850A560B8F8 /* MinSizeRel */,
+				A1CDC83DA9804628B8AABC11 /* RelWithDebInfo */,
 			);
 			compatibilityVersion = "Xcode 3.2";
 			hasScannedForEncodings = 0;
-			mainGroup = D7BA0977C31F4684A09AD2F3;
+			mainGroup = 15469A34F59148DCA84ECD6E;
 			projectDirPath = ../../../../cocos2d/external/websockets;
 			projectRoot = "";
 			targets = (
-				DED5213515B74A0E8FB360F5 /* ALL_BUILD */,
-				FE25B1946F09484F9DD0D237 /* ZERO_CHECK */,
+				E3B561F0F8C64E8D908C6695 /* ALL_BUILD */,
+				0A4339B692494DA5BC45D55B /* ZERO_CHECK */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		3489D7E8D25ABC8E5D71DA19 /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+"/Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/ios-build/engine/external/websockets/CMakeFiles/ZERO_CHECK"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/ios-build/engine/external/websockets
+  make -f /Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/ios-build/engine/external/websockets/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/ios-build/engine/external/websockets
+  make -f /Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/ios-build/engine/external/websockets/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/ios-build/engine/external/websockets
+  make -f /Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/ios-build/engine/external/websockets/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/ios-build/engine/external/websockets
+  make -f /Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/ios-build/engine/external/websockets/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
 		3C0110FC8322DE7E50886E21 = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -163,7 +196,7 @@
 exit 0";
 			showEnvVarsInLog = 0;
 		};
-		7D9E8828D8DEA942DA458676 /* Generate CMakeFiles/ZERO_CHECK */ = {
+		4C72C56E242403FE1D4DC950 /* Generate CMakeFiles/ALL_BUILD */ = {
 			isa = PBXShellScriptBuildPhase;
 			alwaysOutOfDate = 1;
 			buildActionMask = 2147483647;
@@ -171,27 +204,27 @@ exit 0";
 			);
 			inputPaths = (
 			);
-			name = "Generate CMakeFiles/ZERO_CHECK";
+			name = "Generate CMakeFiles/ALL_BUILD";
 			outputPaths = (
-"/Users/v.rezvancev/BattleGame/BattleGame/ios-build/engine/external/websockets/CMakeFiles/ZERO_CHECK"			);
+"/Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/ios-build/engine/external/websockets/CMakeFiles/ALL_BUILD"			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "set -e
 if test \"$CONFIGURATION\" = \"Debug\"; then :
-  cd /Users/v.rezvancev/BattleGame/BattleGame/ios-build/engine/external/websockets
-  make -f /Users/v.rezvancev/BattleGame/BattleGame/ios-build/engine/external/websockets/CMakeScripts/ReRunCMake.make
+  cd /Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/ios-build/engine/external/websockets
+  echo Build\\ all\\ projects
 fi
 if test \"$CONFIGURATION\" = \"Release\"; then :
-  cd /Users/v.rezvancev/BattleGame/BattleGame/ios-build/engine/external/websockets
-  make -f /Users/v.rezvancev/BattleGame/BattleGame/ios-build/engine/external/websockets/CMakeScripts/ReRunCMake.make
+  cd /Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/ios-build/engine/external/websockets
+  echo Build\\ all\\ projects
 fi
 if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
-  cd /Users/v.rezvancev/BattleGame/BattleGame/ios-build/engine/external/websockets
-  make -f /Users/v.rezvancev/BattleGame/BattleGame/ios-build/engine/external/websockets/CMakeScripts/ReRunCMake.make
+  cd /Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/ios-build/engine/external/websockets
+  echo Build\\ all\\ projects
 fi
 if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
-  cd /Users/v.rezvancev/BattleGame/BattleGame/ios-build/engine/external/websockets
-  make -f /Users/v.rezvancev/BattleGame/BattleGame/ios-build/engine/external/websockets/CMakeScripts/ReRunCMake.make
+  cd /Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/ios-build/engine/external/websockets
+  echo Build\\ all\\ projects
 fi
 ";
 			showEnvVarsInLog = 0;
@@ -211,91 +244,28 @@ fi
 exit 0";
 			showEnvVarsInLog = 0;
 		};
-		BE55962FE64CB5CC096CF572 /* Generate CMakeFiles/ALL_BUILD */ = {
-			isa = PBXShellScriptBuildPhase;
-			alwaysOutOfDate = 1;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Generate CMakeFiles/ALL_BUILD";
-			outputPaths = (
-"/Users/v.rezvancev/BattleGame/BattleGame/ios-build/engine/external/websockets/CMakeFiles/ALL_BUILD"			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "set -e
-if test \"$CONFIGURATION\" = \"Debug\"; then :
-  cd /Users/v.rezvancev/BattleGame/BattleGame/ios-build/engine/external/websockets
-  echo Build\\ all\\ projects
-fi
-if test \"$CONFIGURATION\" = \"Release\"; then :
-  cd /Users/v.rezvancev/BattleGame/BattleGame/ios-build/engine/external/websockets
-  echo Build\\ all\\ projects
-fi
-if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
-  cd /Users/v.rezvancev/BattleGame/BattleGame/ios-build/engine/external/websockets
-  echo Build\\ all\\ projects
-fi
-if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
-  cd /Users/v.rezvancev/BattleGame/BattleGame/ios-build/engine/external/websockets
-  echo Build\\ all\\ projects
-fi
-";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		A840D34A3BC948B3AC4FD970 /* PBXTargetDependency */ = {
+		BDA7CDF71CE140CA84E698DB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = FE25B1946F09484F9DD0D237 /* ZERO_CHECK */;
-			targetProxy = 5E0272CBA8344071914AA636 /* PBXContainerItemProxy */;
+			target = 0A4339B692494DA5BC45D55B /* ZERO_CHECK */;
+			targetProxy = D9FAC84110FF47EF955D892C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		05E18CFDA3854C79806121BF /* Debug */ = {
+		06B730B9F39B49E6A9DDAAB3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
-				SYMROOT = "/Users/v.rezvancev/BattleGame/BattleGame/ios-build/engine/external/websockets/build";
+				SYMROOT = "/Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/ios-build/engine/external/websockets/build";
 			};
 			name = Debug;
 		};
-		2309BE4B3C184872AA640DF5 /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/v.rezvancev/BattleGame/BattleGame/ios-build/engine/external/websockets";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		51E765437D5F4B4EB486F1F1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
-				SYMROOT = "/Users/v.rezvancev/BattleGame/BattleGame/ios-build/engine/external/websockets/build";
-			};
-			name = Release;
-		};
-		7D73EA58CA834E6EA7D0BE66 /* Release */ = {
+		0B46668B65594CDB8E1C17F1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -309,13 +279,13 @@ fi
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = ALL_BUILD;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/v.rezvancev/BattleGame/BattleGame/ios-build/engine/external/websockets";
+				SYMROOT = "/Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/ios-build/engine/external/websockets";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
 			name = Release;
 		};
-		853A10625ABF4C078E934E90 /* Release */ = {
+		26BDCB66262544C8B43EBE7E /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -329,33 +299,73 @@ fi
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = ZERO_CHECK;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/v.rezvancev/BattleGame/BattleGame/ios-build/engine/external/websockets";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		968CC486B13D4060AFAB497D /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/v.rezvancev/BattleGame/BattleGame/ios-build/engine/external/websockets";
+				SYMROOT = "/Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/ios-build/engine/external/websockets";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
 			name = MinSizeRel;
 		};
-		99C78FFDBA974E5CA65FDF87 /* RelWithDebInfo */ = {
+		49BF9AA83064472CB4061F35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/ios-build/engine/external/websockets";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		6ED230DA3D1E42B7B623CABF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SYMROOT = "/Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/ios-build/engine/external/websockets/build";
+			};
+			name = Release;
+		};
+		96785182D1134E62950242E3 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/ios-build/engine/external/websockets";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		9EE0573EEB7F441AAAE92651 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SYMROOT = "/Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/ios-build/engine/external/websockets/build";
+			};
+			name = RelWithDebInfo;
+		};
+		A9765B5B34BF4010AF78ADBF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -369,53 +379,63 @@ fi
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = ALL_BUILD;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/v.rezvancev/BattleGame/BattleGame/ios-build/engine/external/websockets";
+				SYMROOT = "/Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/ios-build/engine/external/websockets";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		CB9E3FAFF6D64E67963BF7A6 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/ios-build/engine/external/websockets";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
 			name = RelWithDebInfo;
 		};
-		BBE8E2E46D224C25A4FAE871 /* MinSizeRel */ = {
+		D5A9E6E59B5C48C899016619 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/ios-build/engine/external/websockets";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		EF76A9129B7846D6815B823B /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
-				SYMROOT = "/Users/v.rezvancev/BattleGame/BattleGame/ios-build/engine/external/websockets/build";
+				SYMROOT = "/Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/ios-build/engine/external/websockets/build";
 			};
 			name = MinSizeRel;
 		};
-		CCBAAB50D8BD48AB86F62708 /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
-				SYMROOT = "/Users/v.rezvancev/BattleGame/BattleGame/ios-build/engine/external/websockets/build";
-			};
-			name = RelWithDebInfo;
-		};
-		CD46E340DDD745C7887050AD /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/v.rezvancev/BattleGame/BattleGame/ios-build/engine/external/websockets";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Debug;
-		};
-		D53B81DD18AE4590A75612A1 /* Debug */ = {
+		FC294295FE49440F96A31FC9 /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -429,27 +449,7 @@ fi
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = ALL_BUILD;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/v.rezvancev/BattleGame/BattleGame/ios-build/engine/external/websockets";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Debug;
-		};
-		E1AE0254878C4B6C84827D3B /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/v.rezvancev/BattleGame/BattleGame/ios-build/engine/external/websockets";
+				SYMROOT = "/Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/ios-build/engine/external/websockets";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
@@ -458,40 +458,40 @@ fi
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		048526D1A8924E71AFEB3071 /* Build configuration list for PBXProject "websockets" */ = {
+		0DC5574B2C7741F8B4F2E37B /* Build configuration list for PBXProject "websockets" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				05E18CFDA3854C79806121BF /* Debug */,
-				51E765437D5F4B4EB486F1F1 /* Release */,
-				BBE8E2E46D224C25A4FAE871 /* MinSizeRel */,
-				CCBAAB50D8BD48AB86F62708 /* RelWithDebInfo */,
+				06B730B9F39B49E6A9DDAAB3 /* Debug */,
+				6ED230DA3D1E42B7B623CABF /* Release */,
+				EF76A9129B7846D6815B823B /* MinSizeRel */,
+				9EE0573EEB7F441AAAE92651 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		2DAA5461D08848D8B346B05A /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+		1EE7F5E03A5C447BAD628771 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D53B81DD18AE4590A75612A1 /* Debug */,
-				7D73EA58CA834E6EA7D0BE66 /* Release */,
-				968CC486B13D4060AFAB497D /* MinSizeRel */,
-				99C78FFDBA974E5CA65FDF87 /* RelWithDebInfo */,
+				A9765B5B34BF4010AF78ADBF /* Debug */,
+				0B46668B65594CDB8E1C17F1 /* Release */,
+				FC294295FE49440F96A31FC9 /* MinSizeRel */,
+				CB9E3FAFF6D64E67963BF7A6 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		4C2DF89A079646CBAF662B4C /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+		3BC02BE3E29147188B86A1AA /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CD46E340DDD745C7887050AD /* Debug */,
-				853A10625ABF4C078E934E90 /* Release */,
-				E1AE0254878C4B6C84827D3B /* MinSizeRel */,
-				2309BE4B3C184872AA640DF5 /* RelWithDebInfo */,
+				49BF9AA83064472CB4061F35 /* Debug */,
+				D5A9E6E59B5C48C899016619 /* Release */,
+				26BDCB66262544C8B43EBE7E /* MinSizeRel */,
+				96785182D1134E62950242E3 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = F73A794810F74FCEAB4AC8AD /* Project object */;
+	rootObject = B0A190556A3F4D199EE08634 /* Project object */;
 }

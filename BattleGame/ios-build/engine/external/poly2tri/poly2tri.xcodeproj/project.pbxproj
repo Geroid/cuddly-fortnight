@@ -7,65 +7,65 @@
 	objects = {
 
 /* Begin PBXAggregateTarget section */
-		DED5213515B74A0E8FB360F5 /* ALL_BUILD */ = {
+		0A4339B692494DA5BC45D55B /* ZERO_CHECK */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = E497BF83637F473EACC879C8 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildConfigurationList = F38F8C1658384A3E94312542 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
 			buildPhases = (
-				F2C4D028E5DF6CA53460A694 /* Generate CMakeFiles/ALL_BUILD */,
-			);
-			dependencies = (
-				196EE6B7C6EB4B8C9335B33E /* PBXTargetDependency */,
-				4CB5BEB49ECE4D27B76A4041 /* PBXTargetDependency */,
-			);
-			name = ALL_BUILD;
-			productName = ALL_BUILD;
-		};
-		FE25B1946F09484F9DD0D237 /* ZERO_CHECK */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = 2048C19F58EE40DB87FD33F0 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
-			buildPhases = (
-				9B8068E5EE8C00C0A1AD1D24 /* Generate CMakeFiles/ZERO_CHECK */,
+				3C98A81A41090CF6858291C1 /* Generate CMakeFiles/ZERO_CHECK */,
 			);
 			dependencies = (
 			);
 			name = ZERO_CHECK;
 			productName = ZERO_CHECK;
 		};
+		E3B561F0F8C64E8D908C6695 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 0AA90E754EFA44FE82ED85DF /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				A4DD2C55C13325D7CBB018B8 /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				0E9A2D3005824F7088D1473E /* PBXTargetDependency */,
+				17D8CDF820074B7DB945494B /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		2EE6CD0D4E3F467A9BA3A035 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/poly2tri/sweep/sweep_context.cc */ = {isa = PBXBuildFile; fileRef = 8E8AFCBA5C854FEAB6F48F8F /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/poly2tri/sweep/sweep_context.cc */; };
-		38633C30F78741458AE0D3B6 /* /Users/v.rezvancev/BattleGame/BattleGame/ios-build/engine/external/poly2tri/CMakeFiles/ext_poly2tri.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = B2223F31D7454540B62090F0 /* /Users/v.rezvancev/BattleGame/BattleGame/ios-build/engine/external/poly2tri/CMakeFiles/ext_poly2tri.dir/Info.plist */; };
-		3C09B9B9A7AF477398198511 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/poly2tri/sweep/advancing_front.cc */ = {isa = PBXBuildFile; fileRef = 9FA0B6FFE4514247858C0D7B /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/poly2tri/sweep/advancing_front.cc */; };
-		6823AD98C41A4192BD661FB9 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/poly2tri/sweep/cdt.cc */ = {isa = PBXBuildFile; fileRef = 989A5932CDB749929B49246E /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/poly2tri/sweep/cdt.cc */; };
-		BC8CC62B1EE940F4811E371D /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/poly2tri/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 9C1ADB0EC2AC4D7AA5375A86 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/poly2tri/CMakeLists.txt */; };
-		C1B6E09EC04748EEA6261B06 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/poly2tri/sweep/sweep.cc */ = {isa = PBXBuildFile; fileRef = 30B6F77E09D34B98BECC692D /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/poly2tri/sweep/sweep.cc */; };
-		C33704C7F7FC463C83189A1C /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/poly2tri/common/shapes.cc */ = {isa = PBXBuildFile; fileRef = 7AFC3722A6E14371A82E0B91 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/poly2tri/common/shapes.cc */; };
+		1A6FE2B0FCA44C48AF2EDDE6 /* /Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/cocos2d/external/poly2tri/sweep/sweep.cc */ = {isa = PBXBuildFile; fileRef = FA45CFAA07E04B388920A457 /* /Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/cocos2d/external/poly2tri/sweep/sweep.cc */; };
+		2A11B276AE004A55969328D4 /* /Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/cocos2d/external/poly2tri/sweep/advancing_front.cc */ = {isa = PBXBuildFile; fileRef = 16309665D6F4441090877375 /* /Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/cocos2d/external/poly2tri/sweep/advancing_front.cc */; };
+		85BFE269AB334D2BA3548ABA /* /Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/cocos2d/external/poly2tri/sweep/cdt.cc */ = {isa = PBXBuildFile; fileRef = 1FFC98A0EC2040BBB7D70789 /* /Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/cocos2d/external/poly2tri/sweep/cdt.cc */; };
+		971C223437694E55A170A5DC /* /Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/cocos2d/external/poly2tri/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = A24824BF80DE4841B78489F3 /* /Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/cocos2d/external/poly2tri/CMakeLists.txt */; };
+		B6E6871FA82247BAA59F07E7 /* /Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/ios-build/engine/external/poly2tri/CMakeFiles/ext_poly2tri.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = 0873524A48A64616BE3104BA /* /Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/ios-build/engine/external/poly2tri/CMakeFiles/ext_poly2tri.dir/Info.plist */; };
+		C2E57BA5418E4CD494443BAD /* /Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/cocos2d/external/poly2tri/common/shapes.cc */ = {isa = PBXBuildFile; fileRef = C799763F84AA49D3B64512D9 /* /Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/cocos2d/external/poly2tri/common/shapes.cc */; };
+		D6396494BE6C4726A7B19D23 /* /Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/cocos2d/external/poly2tri/sweep/sweep_context.cc */ = {isa = PBXBuildFile; fileRef = 1307D36238CC487A9E4630F1 /* /Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/cocos2d/external/poly2tri/sweep/sweep_context.cc */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildStyle section */
-		14D8FDA40970495687475CB4 /* RelWithDebInfo */ = {
+		591A18DB51A0457383FFCDE8 /* RelWithDebInfo */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 			};
 			name = RelWithDebInfo;
 		};
-		40B159EEFC7B46578A89332C /* Debug */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = Debug;
-		};
-		6F184E101A444579B8AD0A7F /* MinSizeRel */ = {
+		E22047101029499A965F66C0 /* MinSizeRel */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 			};
 			name = MinSizeRel;
 		};
-		D5C44CF1FEE449938F6C266D /* Release */ = {
+		F1C4FA24CF794931A948D795 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		F67EA843387149E389A46EA8 /* Release */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
@@ -75,43 +75,43 @@
 /* End PBXBuildStyle section */
 
 /* Begin PBXContainerItemProxy section */
-		03901FAD4647483C945E5277 /* PBXContainerItemProxy */ = {
+		3D434B1E96914ABE96E96BC5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = E1AE57A32E8A40B6A7377E11 /* Project object */;
+			containerPortal = DEE32E1F143A4C329986BE39 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = FE25B1946F09484F9DD0D237;
+			remoteGlobalIDString = 0A4339B692494DA5BC45D55B;
 			remoteInfo = ZERO_CHECK;
 		};
-		A2FCC6BFC1594314BF989EA6 /* PBXContainerItemProxy */ = {
+		4D69ECA6E48240F293C76DF0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = E1AE57A32E8A40B6A7377E11 /* Project object */;
+			containerPortal = DEE32E1F143A4C329986BE39 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 4FC078FC809043739D8C1F0E;
+			remoteGlobalIDString = C21789249DDD4ECDA9E53FB0;
 			remoteInfo = ext_poly2tri;
 		};
-		B4DFE31C2AFB41F2B00C4C14 /* PBXContainerItemProxy */ = {
+		581C60D39E7C4EB6A2372306 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = E1AE57A32E8A40B6A7377E11 /* Project object */;
+			containerPortal = DEE32E1F143A4C329986BE39 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = FE25B1946F09484F9DD0D237;
+			remoteGlobalIDString = 0A4339B692494DA5BC45D55B;
 			remoteInfo = ZERO_CHECK;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		30B6F77E09D34B98BECC692D /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/poly2tri/sweep/sweep.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = sweep.cc; path = sweep/sweep.cc; sourceTree = SOURCE_ROOT; };
-		48CC56D41DEA442D9604BF0A /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/poly2tri/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		7AFC3722A6E14371A82E0B91 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/poly2tri/common/shapes.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = shapes.cc; path = common/shapes.cc; sourceTree = SOURCE_ROOT; };
-		87E9E2C864DE4B94AD5368F2 /* ext_poly2tri */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_poly2tri.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		8E8AFCBA5C854FEAB6F48F8F /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/poly2tri/sweep/sweep_context.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = sweep_context.cc; path = sweep/sweep_context.cc; sourceTree = SOURCE_ROOT; };
-		989A5932CDB749929B49246E /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/poly2tri/sweep/cdt.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = cdt.cc; path = sweep/cdt.cc; sourceTree = SOURCE_ROOT; };
-		9C1ADB0EC2AC4D7AA5375A86 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/poly2tri/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		9FA0B6FFE4514247858C0D7B /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/poly2tri/sweep/advancing_front.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = advancing_front.cc; path = sweep/advancing_front.cc; sourceTree = SOURCE_ROOT; };
-		B2223F31D7454540B62090F0 /* /Users/v.rezvancev/BattleGame/BattleGame/ios-build/engine/external/poly2tri/CMakeFiles/ext_poly2tri.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = "../../../ios-build/engine/external/poly2tri/CMakeFiles/ext_poly2tri.dir/Info.plist"; sourceTree = SOURCE_ROOT; };
+		0873524A48A64616BE3104BA /* /Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/ios-build/engine/external/poly2tri/CMakeFiles/ext_poly2tri.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = "../../../ios-build/engine/external/poly2tri/CMakeFiles/ext_poly2tri.dir/Info.plist"; sourceTree = SOURCE_ROOT; };
+		1307D36238CC487A9E4630F1 /* /Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/cocos2d/external/poly2tri/sweep/sweep_context.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = sweep_context.cc; path = sweep/sweep_context.cc; sourceTree = SOURCE_ROOT; };
+		16309665D6F4441090877375 /* /Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/cocos2d/external/poly2tri/sweep/advancing_front.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = advancing_front.cc; path = sweep/advancing_front.cc; sourceTree = SOURCE_ROOT; };
+		1FFC98A0EC2040BBB7D70789 /* /Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/cocos2d/external/poly2tri/sweep/cdt.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = cdt.cc; path = sweep/cdt.cc; sourceTree = SOURCE_ROOT; };
+		4E2B4AD1868B498AB4638AD8 /* ext_poly2tri */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_poly2tri.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A24824BF80DE4841B78489F3 /* /Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/cocos2d/external/poly2tri/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		C799763F84AA49D3B64512D9 /* /Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/cocos2d/external/poly2tri/common/shapes.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = shapes.cc; path = common/shapes.cc; sourceTree = SOURCE_ROOT; };
+		D8860192EABC4A2B98FA83C2 /* /Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/cocos2d/external/poly2tri/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		FA45CFAA07E04B388920A457 /* /Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/cocos2d/external/poly2tri/sweep/sweep.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = sweep.cc; path = sweep/sweep.cc; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		106ED0A11BF94B4B9D11830A /* Frameworks */ = {
+		A4D1448E895549C5ACD6B6F0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -121,132 +121,132 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		453B8FF035D04D9DB3B1D6DF /* CMake Rules */ = {
+		1163B6107A414A47B6628073 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0873524A48A64616BE3104BA /* /Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/ios-build/engine/external/poly2tri/CMakeFiles/ext_poly2tri.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		13F4D8FC8B214BC0BF95C1CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E2B4AD1868B498AB4638AD8 /* ext_poly2tri */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		27037B23BAC0467EBEF66E14 /* External */ = {
+			isa = PBXGroup;
+			children = (
+				68BFFA2B0A9442338602DC28 /* ext_poly2tri */,
+			);
+			name = External;
+			sourceTree = "<group>";
+		};
+		68BFFA2B0A9442338602DC28 /* ext_poly2tri */ = {
+			isa = PBXGroup;
+			children = (
+				85616C683BBB4C6AAB0F3C7C /* Source Files */,
+				1163B6107A414A47B6628073 /* Resources */,
+				A24824BF80DE4841B78489F3 /* /Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/cocos2d/external/poly2tri/CMakeLists.txt */,
+			);
+			name = ext_poly2tri;
+			sourceTree = "<group>";
+		};
+		7E771E864FB64EF8833236B5 /* CMake Rules */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = "CMake Rules";
 			sourceTree = "<group>";
 		};
-		46D03546C17E47E3A8EF7BE9 /* External */ = {
+		85616C683BBB4C6AAB0F3C7C /* Source Files */ = {
 			isa = PBXGroup;
 			children = (
-				D620A63EB9AB4FEC9AB4D492 /* ext_poly2tri */,
-			);
-			name = External;
-			sourceTree = "<group>";
-		};
-		47783D63A9034B35BBF2AA5F = {
-			isa = PBXGroup;
-			children = (
-				46D03546C17E47E3A8EF7BE9 /* External */,
-				6912F6542F224CBF94FC1B2A /* ALL_BUILD */,
-				E8B01BE7EA2345B9AB6223FE /* Products */,
-				B8FCA349C09B4A43BAB1EC53 /* Frameworks */,
-			);
-			sourceTree = "<group>";
-		};
-		6912F6542F224CBF94FC1B2A /* ALL_BUILD */ = {
-			isa = PBXGroup;
-			children = (
-				453B8FF035D04D9DB3B1D6DF /* CMake Rules */,
-				48CC56D41DEA442D9604BF0A /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/poly2tri/CMakeLists.txt */,
-			);
-			name = ALL_BUILD;
-			sourceTree = "<group>";
-		};
-		81535598AF974353A96C01D8 /* Source Files */ = {
-			isa = PBXGroup;
-			children = (
-				7AFC3722A6E14371A82E0B91 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/poly2tri/common/shapes.cc */,
-				9FA0B6FFE4514247858C0D7B /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/poly2tri/sweep/advancing_front.cc */,
-				989A5932CDB749929B49246E /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/poly2tri/sweep/cdt.cc */,
-				30B6F77E09D34B98BECC692D /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/poly2tri/sweep/sweep.cc */,
-				8E8AFCBA5C854FEAB6F48F8F /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/poly2tri/sweep/sweep_context.cc */,
+				C799763F84AA49D3B64512D9 /* /Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/cocos2d/external/poly2tri/common/shapes.cc */,
+				16309665D6F4441090877375 /* /Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/cocos2d/external/poly2tri/sweep/advancing_front.cc */,
+				1FFC98A0EC2040BBB7D70789 /* /Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/cocos2d/external/poly2tri/sweep/cdt.cc */,
+				FA45CFAA07E04B388920A457 /* /Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/cocos2d/external/poly2tri/sweep/sweep.cc */,
+				1307D36238CC487A9E4630F1 /* /Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/cocos2d/external/poly2tri/sweep/sweep_context.cc */,
 			);
 			name = "Source Files";
 			sourceTree = "<group>";
 		};
-		B78AAD8474E9466B89B81A19 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				B2223F31D7454540B62090F0 /* /Users/v.rezvancev/BattleGame/BattleGame/ios-build/engine/external/poly2tri/CMakeFiles/ext_poly2tri.dir/Info.plist */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		B8FCA349C09B4A43BAB1EC53 /* Frameworks */ = {
+		8635EC0CA0B640FDAC5372C7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D620A63EB9AB4FEC9AB4D492 /* ext_poly2tri */ = {
+		D73BBFBABA0A404E8BC1CFC9 = {
 			isa = PBXGroup;
 			children = (
-				81535598AF974353A96C01D8 /* Source Files */,
-				B78AAD8474E9466B89B81A19 /* Resources */,
-				9C1ADB0EC2AC4D7AA5375A86 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/poly2tri/CMakeLists.txt */,
+				27037B23BAC0467EBEF66E14 /* External */,
+				E9F5EDE1435C4B7D8D0404A9 /* ALL_BUILD */,
+				13F4D8FC8B214BC0BF95C1CA /* Products */,
+				8635EC0CA0B640FDAC5372C7 /* Frameworks */,
 			);
-			name = ext_poly2tri;
 			sourceTree = "<group>";
 		};
-		E8B01BE7EA2345B9AB6223FE /* Products */ = {
+		E9F5EDE1435C4B7D8D0404A9 /* ALL_BUILD */ = {
 			isa = PBXGroup;
 			children = (
-				87E9E2C864DE4B94AD5368F2 /* ext_poly2tri */,
+				7E771E864FB64EF8833236B5 /* CMake Rules */,
+				D8860192EABC4A2B98FA83C2 /* /Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/cocos2d/external/poly2tri/CMakeLists.txt */,
 			);
-			name = Products;
+			name = ALL_BUILD;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4FC078FC809043739D8C1F0E /* ext_poly2tri */ = {
+		C21789249DDD4ECDA9E53FB0 /* ext_poly2tri */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B16D31C1391B4A20A03C679C /* Build configuration list for PBXNativeTarget "ext_poly2tri" */;
+			buildConfigurationList = F211E63BB2414FFC94CDADB8 /* Build configuration list for PBXNativeTarget "ext_poly2tri" */;
 			buildPhases = (
-				3CA11853A7934C9097E86FAF /* Sources */,
-				106ED0A11BF94B4B9D11830A /* Frameworks */,
+				8A0A185BADE44FD48726981C /* Sources */,
+				A4D1448E895549C5ACD6B6F0 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				72A93315C0AD40CEA199F0B8 /* PBXTargetDependency */,
+				DEE07F30921147F6AD75DE76 /* PBXTargetDependency */,
 			);
 			name = ext_poly2tri;
 			productName = ext_poly2tri;
-			productReference = 87E9E2C864DE4B94AD5368F2 /* ext_poly2tri */;
+			productReference = 4E2B4AD1868B498AB4638AD8 /* ext_poly2tri */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		E1AE57A32E8A40B6A7377E11 /* Project object */ = {
+		DEE32E1F143A4C329986BE39 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 1250;
 			};
-			buildConfigurationList = 8723A4D651FA4270A4382DA4 /* Build configuration list for PBXProject "poly2tri" */;
+			buildConfigurationList = AE23BA830FAD49B9B25261AE /* Build configuration list for PBXProject "poly2tri" */;
 			buildSettings = {
 			};
 			buildStyles = (
-				40B159EEFC7B46578A89332C /* Debug */,
-				D5C44CF1FEE449938F6C266D /* Release */,
-				6F184E101A444579B8AD0A7F /* MinSizeRel */,
-				14D8FDA40970495687475CB4 /* RelWithDebInfo */,
+				F1C4FA24CF794931A948D795 /* Debug */,
+				F67EA843387149E389A46EA8 /* Release */,
+				E22047101029499A965F66C0 /* MinSizeRel */,
+				591A18DB51A0457383FFCDE8 /* RelWithDebInfo */,
 			);
 			compatibilityVersion = "Xcode 3.2";
 			hasScannedForEncodings = 0;
-			mainGroup = 47783D63A9034B35BBF2AA5F;
+			mainGroup = D73BBFBABA0A404E8BC1CFC9;
 			projectDirPath = ../../../../cocos2d/external/poly2tri;
 			projectRoot = "";
 			targets = (
-				DED5213515B74A0E8FB360F5 /* ALL_BUILD */,
-				FE25B1946F09484F9DD0D237 /* ZERO_CHECK */,
-				4FC078FC809043739D8C1F0E /* ext_poly2tri */,
+				E3B561F0F8C64E8D908C6695 /* ALL_BUILD */,
+				0A4339B692494DA5BC45D55B /* ZERO_CHECK */,
+				C21789249DDD4ECDA9E53FB0 /* ext_poly2tri */,
 			);
 		};
 /* End PBXProject section */
@@ -267,6 +267,39 @@
 exit 0";
 			showEnvVarsInLog = 0;
 		};
+		3C98A81A41090CF6858291C1 /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+"/Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/ios-build/engine/external/poly2tri/CMakeFiles/ZERO_CHECK"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/ios-build/engine/external/poly2tri
+  make -f /Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/ios-build/engine/external/poly2tri/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/ios-build/engine/external/poly2tri
+  make -f /Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/ios-build/engine/external/poly2tri/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/ios-build/engine/external/poly2tri
+  make -f /Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/ios-build/engine/external/poly2tri/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/ios-build/engine/external/poly2tri
+  make -f /Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/ios-build/engine/external/poly2tri/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
 		9B50530E35CC49C82C2FACCF = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -282,40 +315,7 @@ exit 0";
 exit 0";
 			showEnvVarsInLog = 0;
 		};
-		9B8068E5EE8C00C0A1AD1D24 /* Generate CMakeFiles/ZERO_CHECK */ = {
-			isa = PBXShellScriptBuildPhase;
-			alwaysOutOfDate = 1;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Generate CMakeFiles/ZERO_CHECK";
-			outputPaths = (
-"/Users/v.rezvancev/BattleGame/BattleGame/ios-build/engine/external/poly2tri/CMakeFiles/ZERO_CHECK"			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "set -e
-if test \"$CONFIGURATION\" = \"Debug\"; then :
-  cd /Users/v.rezvancev/BattleGame/BattleGame/ios-build/engine/external/poly2tri
-  make -f /Users/v.rezvancev/BattleGame/BattleGame/ios-build/engine/external/poly2tri/CMakeScripts/ReRunCMake.make
-fi
-if test \"$CONFIGURATION\" = \"Release\"; then :
-  cd /Users/v.rezvancev/BattleGame/BattleGame/ios-build/engine/external/poly2tri
-  make -f /Users/v.rezvancev/BattleGame/BattleGame/ios-build/engine/external/poly2tri/CMakeScripts/ReRunCMake.make
-fi
-if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
-  cd /Users/v.rezvancev/BattleGame/BattleGame/ios-build/engine/external/poly2tri
-  make -f /Users/v.rezvancev/BattleGame/BattleGame/ios-build/engine/external/poly2tri/CMakeScripts/ReRunCMake.make
-fi
-if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
-  cd /Users/v.rezvancev/BattleGame/BattleGame/ios-build/engine/external/poly2tri
-  make -f /Users/v.rezvancev/BattleGame/BattleGame/ios-build/engine/external/poly2tri/CMakeScripts/ReRunCMake.make
-fi
-";
-			showEnvVarsInLog = 0;
-		};
-		F2C4D028E5DF6CA53460A694 /* Generate CMakeFiles/ALL_BUILD */ = {
+		A4DD2C55C13325D7CBB018B8 /* Generate CMakeFiles/ALL_BUILD */ = {
 			isa = PBXShellScriptBuildPhase;
 			alwaysOutOfDate = 1;
 			buildActionMask = 2147483647;
@@ -325,24 +325,24 @@ fi
 			);
 			name = "Generate CMakeFiles/ALL_BUILD";
 			outputPaths = (
-"/Users/v.rezvancev/BattleGame/BattleGame/ios-build/engine/external/poly2tri/CMakeFiles/ALL_BUILD"			);
+"/Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/ios-build/engine/external/poly2tri/CMakeFiles/ALL_BUILD"			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "set -e
 if test \"$CONFIGURATION\" = \"Debug\"; then :
-  cd /Users/v.rezvancev/BattleGame/BattleGame/ios-build/engine/external/poly2tri
+  cd /Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/ios-build/engine/external/poly2tri
   echo Build\\ all\\ projects
 fi
 if test \"$CONFIGURATION\" = \"Release\"; then :
-  cd /Users/v.rezvancev/BattleGame/BattleGame/ios-build/engine/external/poly2tri
+  cd /Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/ios-build/engine/external/poly2tri
   echo Build\\ all\\ projects
 fi
 if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
-  cd /Users/v.rezvancev/BattleGame/BattleGame/ios-build/engine/external/poly2tri
+  cd /Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/ios-build/engine/external/poly2tri
   echo Build\\ all\\ projects
 fi
 if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
-  cd /Users/v.rezvancev/BattleGame/BattleGame/ios-build/engine/external/poly2tri
+  cd /Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/ios-build/engine/external/poly2tri
   echo Build\\ all\\ projects
 fi
 ";
@@ -351,40 +351,40 @@ fi
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3CA11853A7934C9097E86FAF /* Sources */ = {
+		8A0A185BADE44FD48726981C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C33704C7F7FC463C83189A1C /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/poly2tri/common/shapes.cc */,
-				3C09B9B9A7AF477398198511 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/poly2tri/sweep/advancing_front.cc */,
-				6823AD98C41A4192BD661FB9 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/poly2tri/sweep/cdt.cc */,
-				C1B6E09EC04748EEA6261B06 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/poly2tri/sweep/sweep.cc */,
-				2EE6CD0D4E3F467A9BA3A035 /* /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/poly2tri/sweep/sweep_context.cc */,
+				C2E57BA5418E4CD494443BAD /* /Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/cocos2d/external/poly2tri/common/shapes.cc */,
+				2A11B276AE004A55969328D4 /* /Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/cocos2d/external/poly2tri/sweep/advancing_front.cc */,
+				85BFE269AB334D2BA3548ABA /* /Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/cocos2d/external/poly2tri/sweep/cdt.cc */,
+				1A6FE2B0FCA44C48AF2EDDE6 /* /Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/cocos2d/external/poly2tri/sweep/sweep.cc */,
+				D6396494BE6C4726A7B19D23 /* /Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/cocos2d/external/poly2tri/sweep/sweep_context.cc */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		196EE6B7C6EB4B8C9335B33E /* PBXTargetDependency */ = {
+		0E9A2D3005824F7088D1473E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = FE25B1946F09484F9DD0D237 /* ZERO_CHECK */;
-			targetProxy = B4DFE31C2AFB41F2B00C4C14 /* PBXContainerItemProxy */;
+			target = 0A4339B692494DA5BC45D55B /* ZERO_CHECK */;
+			targetProxy = 3D434B1E96914ABE96E96BC5 /* PBXContainerItemProxy */;
 		};
-		4CB5BEB49ECE4D27B76A4041 /* PBXTargetDependency */ = {
+		17D8CDF820074B7DB945494B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4FC078FC809043739D8C1F0E /* ext_poly2tri */;
-			targetProxy = A2FCC6BFC1594314BF989EA6 /* PBXContainerItemProxy */;
+			target = C21789249DDD4ECDA9E53FB0 /* ext_poly2tri */;
+			targetProxy = 4D69ECA6E48240F293C76DF0 /* PBXContainerItemProxy */;
 		};
-		72A93315C0AD40CEA199F0B8 /* PBXTargetDependency */ = {
+		DEE07F30921147F6AD75DE76 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = FE25B1946F09484F9DD0D237 /* ZERO_CHECK */;
-			targetProxy = 03901FAD4647483C945E5277 /* PBXContainerItemProxy */;
+			target = 0A4339B692494DA5BC45D55B /* ZERO_CHECK */;
+			targetProxy = 581C60D39E7C4EB6A2372306 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		10988761B5F54A189F2E1048 /* Debug */ = {
+		00164FFEBC4943CA9931F2B2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -398,225 +398,17 @@ fi
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = ZERO_CHECK;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/v.rezvancev/BattleGame/BattleGame/ios-build/engine/external/poly2tri";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Debug;
-		};
-		19C98CDD768746F7A6EF7B6E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
-				SYMROOT = "/Users/v.rezvancev/BattleGame/BattleGame/ios-build/engine/external/poly2tri/build";
-			};
-			name = Release;
-		};
-		2E085EEADC8F4139A7B12191 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
-				SYMROOT = "/Users/v.rezvancev/BattleGame/BattleGame/ios-build/engine/external/poly2tri/build";
-			};
-			name = Debug;
-		};
-		421D8BCCA1A54946BE94CA56 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/v.rezvancev/BattleGame/BattleGame/ios-build/engine/external/poly2tri";
+				SYMROOT = "/Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/ios-build/engine/external/poly2tri";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
 			name = Release;
 		};
-		478F420E6EE34E0FAC4C6759 /* RelWithDebInfo */ = {
+		0D5A5C9EB1F348E9A00AF68F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/v.rezvancev/BattleGame/BattleGame/ios-build/engine/external/poly2tri";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		509DA83923264CF582459B95 /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
-				SYMROOT = "/Users/v.rezvancev/BattleGame/BattleGame/ios-build/engine/external/poly2tri/build";
-			};
-			name = RelWithDebInfo;
-		};
-		5C46F3B59DEC4B44B283085F /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = "/Users/v.rezvancev/BattleGame/BattleGame/ios-build/lib/RelWithDebInfo";
-				ENABLE_BITCODE = NO;
-				EXECUTABLE_PREFIX = lib;
-				EXECUTABLE_SUFFIX = .a;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 2;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/poly2tri/..,"$(inherited)");
-				INSTALL_PATH = "";
-				LIBRARY_STYLE = STATIC;
-				ONLY_ACTIVE_ARCH = YES;
-				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++11' ";
-				OTHER_LIBTOOLFLAGS = ("");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ext_poly2tri;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/v.rezvancev/BattleGame/BattleGame/ios-build/engine/external/poly2tri";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		6808C74046AC42899B16A4A4 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/v.rezvancev/BattleGame/BattleGame/ios-build/engine/external/poly2tri";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		6FD8652C34AD4258BB5930AA /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/v.rezvancev/BattleGame/BattleGame/ios-build/engine/external/poly2tri";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		82D0B890223C4598964DA3EF /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/v.rezvancev/BattleGame/BattleGame/ios-build/engine/external/poly2tri";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		C0DEB3315B974E6B873E47F3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/v.rezvancev/BattleGame/BattleGame/ios-build/engine/external/poly2tri";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Debug;
-		};
-		C9CFC4B2D6874BCDA622C906 /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/v.rezvancev/BattleGame/BattleGame/ios-build/engine/external/poly2tri";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		D6F6D1F8DBA54E5793218A5C /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
-				SYMROOT = "/Users/v.rezvancev/BattleGame/BattleGame/ios-build/engine/external/poly2tri/build";
-			};
-			name = MinSizeRel;
-		};
-		EE66A9951F1F45C0B22BCB98 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = "/Users/v.rezvancev/BattleGame/BattleGame/ios-build/lib/Debug";
+				CONFIGURATION_BUILD_DIR = "/Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/ios-build/lib/Debug";
 				ENABLE_BITCODE = NO;
 				EXECUTABLE_PREFIX = lib;
 				EXECUTABLE_SUFFIX = .a;
@@ -625,7 +417,7 @@ fi
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/poly2tri/..,"$(inherited)");
+				HEADER_SEARCH_PATHS = ("/Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/cocos2d/external/poly2tri/..","$(inherited)");
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
 				ONLY_ACTIVE_ARCH = YES;
@@ -634,45 +426,37 @@ fi
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = ext_poly2tri;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/v.rezvancev/BattleGame/BattleGame/ios-build/engine/external/poly2tri";
+				SYMROOT = "/Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/ios-build/engine/external/poly2tri";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
 			name = Debug;
 		};
-		F63F8D2F965D42A18BF6232F /* Release */ = {
+		0FE4CABCBF2D4F5BAFCB9C9A /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = "/Users/v.rezvancev/BattleGame/BattleGame/ios-build/lib/Release";
-				ENABLE_BITCODE = NO;
-				EXECUTABLE_PREFIX = lib;
-				EXECUTABLE_SUFFIX = .a;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 3;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/poly2tri/..,"$(inherited)");
-				INSTALL_PATH = "";
-				LIBRARY_STYLE = STATIC;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
-				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
-				OTHER_LIBTOOLFLAGS = ("");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ext_poly2tri;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/v.rezvancev/BattleGame/BattleGame/ios-build/engine/external/poly2tri";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
+				SDKROOT = iphoneos;
+				SYMROOT = "/Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/ios-build/engine/external/poly2tri/build";
 			};
-			name = Release;
+			name = MinSizeRel;
 		};
-		FC9D39E88ED04CA5A96B0390 /* MinSizeRel */ = {
+		240A611EABA9432FA1BC182D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SYMROOT = "/Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/ios-build/engine/external/poly2tri/build";
+			};
+			name = Debug;
+		};
+		422C511F4DE24EA79EFEF849 /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = "/Users/v.rezvancev/BattleGame/BattleGame/ios-build/lib/MinSizeRel";
+				CONFIGURATION_BUILD_DIR = "/Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/ios-build/lib/MinSizeRel";
 				ENABLE_BITCODE = NO;
 				EXECUTABLE_PREFIX = lib;
 				EXECUTABLE_SUFFIX = .a;
@@ -681,7 +465,7 @@ fi
 				GCC_OPTIMIZATION_LEVEL = s;
 				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/poly2tri/..,"$(inherited)");
+				HEADER_SEARCH_PATHS = ("/Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/cocos2d/external/poly2tri/..","$(inherited)");
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
 				ONLY_ACTIVE_ARCH = YES;
@@ -690,60 +474,276 @@ fi
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = ext_poly2tri;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/v.rezvancev/BattleGame/BattleGame/ios-build/engine/external/poly2tri";
+				SYMROOT = "/Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/ios-build/engine/external/poly2tri";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
 			name = MinSizeRel;
 		};
+		4987101809144F74A10C0610 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/ios-build/lib/RelWithDebInfo";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/cocos2d/external/poly2tri/..","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_poly2tri;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/ios-build/engine/external/poly2tri";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		575852AFD4C348C68E9F024E /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/ios-build/engine/external/poly2tri";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		7C5E6298CE744A819244406F /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/ios-build/engine/external/poly2tri";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		93C96C56AAF84599B4D1F9C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/ios-build/engine/external/poly2tri";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		A1EC5D66F4EE473E91B95952 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/ios-build/engine/external/poly2tri";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		AC9FC3AD496143DBAFF8A29D /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SYMROOT = "/Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/ios-build/engine/external/poly2tri/build";
+			};
+			name = RelWithDebInfo;
+		};
+		BBB46B6AC6D04A3FBE2741E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/ios-build/lib/Release";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/cocos2d/external/poly2tri/..","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_poly2tri;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/ios-build/engine/external/poly2tri";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		C10724089CC74F9DBD021549 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/ios-build/engine/external/poly2tri";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		CAEED0DBF8324F8A9062EDA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/ios-build/engine/external/poly2tri";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		F29B578854134914AAF97CC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SYMROOT = "/Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/ios-build/engine/external/poly2tri/build";
+			};
+			name = Release;
+		};
+		F616505E1B75418E94EA4E3E /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/ios-build/engine/external/poly2tri";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2048C19F58EE40DB87FD33F0 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+		0AA90E754EFA44FE82ED85DF /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				10988761B5F54A189F2E1048 /* Debug */,
-				82D0B890223C4598964DA3EF /* Release */,
-				6FD8652C34AD4258BB5930AA /* MinSizeRel */,
-				478F420E6EE34E0FAC4C6759 /* RelWithDebInfo */,
+				C10724089CC74F9DBD021549 /* Debug */,
+				93C96C56AAF84599B4D1F9C5 /* Release */,
+				7C5E6298CE744A819244406F /* MinSizeRel */,
+				F616505E1B75418E94EA4E3E /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		8723A4D651FA4270A4382DA4 /* Build configuration list for PBXProject "poly2tri" */ = {
+		AE23BA830FAD49B9B25261AE /* Build configuration list for PBXProject "poly2tri" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2E085EEADC8F4139A7B12191 /* Debug */,
-				19C98CDD768746F7A6EF7B6E /* Release */,
-				D6F6D1F8DBA54E5793218A5C /* MinSizeRel */,
-				509DA83923264CF582459B95 /* RelWithDebInfo */,
+				240A611EABA9432FA1BC182D /* Debug */,
+				F29B578854134914AAF97CC8 /* Release */,
+				0FE4CABCBF2D4F5BAFCB9C9A /* MinSizeRel */,
+				AC9FC3AD496143DBAFF8A29D /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		B16D31C1391B4A20A03C679C /* Build configuration list for PBXNativeTarget "ext_poly2tri" */ = {
+		F211E63BB2414FFC94CDADB8 /* Build configuration list for PBXNativeTarget "ext_poly2tri" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EE66A9951F1F45C0B22BCB98 /* Debug */,
-				F63F8D2F965D42A18BF6232F /* Release */,
-				FC9D39E88ED04CA5A96B0390 /* MinSizeRel */,
-				5C46F3B59DEC4B44B283085F /* RelWithDebInfo */,
+				0D5A5C9EB1F348E9A00AF68F /* Debug */,
+				BBB46B6AC6D04A3FBE2741E7 /* Release */,
+				422C511F4DE24EA79EFEF849 /* MinSizeRel */,
+				4987101809144F74A10C0610 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		E497BF83637F473EACC879C8 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+		F38F8C1658384A3E94312542 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C0DEB3315B974E6B873E47F3 /* Debug */,
-				421D8BCCA1A54946BE94CA56 /* Release */,
-				6808C74046AC42899B16A4A4 /* MinSizeRel */,
-				C9CFC4B2D6874BCDA622C906 /* RelWithDebInfo */,
+				CAEED0DBF8324F8A9062EDA7 /* Debug */,
+				00164FFEBC4943CA9931F2B2 /* Release */,
+				A1EC5D66F4EE473E91B95952 /* MinSizeRel */,
+				575852AFD4C348C68E9F024E /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = E1AE57A32E8A40B6A7377E11 /* Project object */;
+	rootObject = DEE32E1F143A4C329986BE39 /* Project object */;
 }

@@ -1,4 +1,4 @@
-# Install script for directory: /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/websockets
+# Install script for directory: /Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/cocos2d/external/websockets
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -37,7 +37,7 @@ if(NOT DEFINED CMAKE_OBJDUMP)
   set(CMAKE_OBJDUMP "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/objdump")
 endif()
 
-set(CMAKE_BINARY_DIR "/Users/v.rezvancev/BattleGame/BattleGame/ios-build")
+set(CMAKE_BINARY_DIR "/Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/ios-build")
 
 if(NOT PLATFORM_NAME)
   if(NOT "$ENV{PLATFORM_NAME}" STREQUAL "")

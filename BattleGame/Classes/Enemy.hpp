@@ -20,11 +20,14 @@ public:
     void despawn();
     void fire();
     void hurt();
-
+    virtual void update(float) override;
+    
 private:
     int health;
     int fireRate;
+    float fireTimer;
     bool initMovement();
+    cocos2d::Vector<cocos2d::Sprite*> bullets;
 };
 
 #endif /* Enemy_hpp */

@@ -23,6 +23,7 @@ bool Game::init() {
 
     this->initBackground();
     this->spawnPlayer();
+    this->spawnEnemy();
 
     log("Game Scene -- Successfully initialize");
     return true;
@@ -39,6 +40,15 @@ void Game::spawnPlayer() {
     this->player = Player::createSprite();
     this->player->setPosition(origin.x+(visibleSize.width/2), origin.y+this->player->getBoundingBox().size.height/2);
     this->addChild(this->player);
+}
+
+void Game::spawnEnemy() {
+    auto director = Director::getInstance();
+    auto visibleSize = director->getVisibleSize();
+    Vec2 origin = director->getVisibleOrigin();
+    this->enemy = Enemy::createSprite();
+    this->enemy->setPosition(origin.x+(visibleSize.width/2), origin.y+this->enemy->getBoundingBox().size.height+100);
+    this->addChild(this->enemy);
 }
 
 void Game::initBackground() {

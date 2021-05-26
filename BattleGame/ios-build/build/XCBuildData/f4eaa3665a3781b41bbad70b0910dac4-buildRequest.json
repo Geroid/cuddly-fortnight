@@ -1,0 +1,99 @@
+{
+  "buildCommand" : "prepareForIndexing",
+  "configuredTargets" : [
+    {
+      "guid" : "4ec45bd743ee64e4e7ab9b04c252e2ce4db820034ef48a2254cf454f0eae4a41"
+    },
+    {
+      "guid" : "4ec45bd743ee64e4e7ab9b04c252e2ce3c150a16dfc4c26b4b16bc265e2cc5c6"
+    },
+    {
+      "guid" : "4ec45bd743ee64e4e7ab9b04c252e2ce060e45fc968244b6c481ee0eb9f2eea9"
+    },
+    {
+      "guid" : "4ec45bd743ee64e4e7ab9b04c252e2ce63e5ec7f56e75d8c71fc485b41508fdf"
+    },
+    {
+      "guid" : "4ec45bd743ee64e4e7ab9b04c252e2ce2445e7460ac931ac45a0664e70ecd132"
+    },
+    {
+      "guid" : "4ec45bd743ee64e4e7ab9b04c252e2ce7a6898412799afa8910eed5c37c425f6"
+    },
+    {
+      "guid" : "4ec45bd743ee64e4e7ab9b04c252e2cedd12682abcd9f4d4ec38f420fd71c191"
+    },
+    {
+      "guid" : "4ec45bd743ee64e4e7ab9b04c252e2cee164b6c9ae49a87df25652b587f09bf1"
+    },
+    {
+      "guid" : "4ec45bd743ee64e4e7ab9b04c252e2ceb7b1795961a3cbd2802bae105c887477"
+    },
+    {
+      "guid" : "4ec45bd743ee64e4e7ab9b04c252e2ce0caf6d7f0acc865ce0c01dc3776346ed"
+    },
+    {
+      "guid" : "4ec45bd743ee64e4e7ab9b04c252e2cea8254c657ebda8300d26a8a24c36c8b5"
+    },
+    {
+      "guid" : "4ec45bd743ee64e4e7ab9b04c252e2ce7a5fac7572ccbf7a8d0194da568c4be3"
+    },
+    {
+      "guid" : "4ec45bd743ee64e4e7ab9b04c252e2ce729dd7c5cfdde02394910906b905c0a7"
+    },
+    {
+      "guid" : "4ec45bd743ee64e4e7ab9b04c252e2ced9d07869f5dc34c72cf2024f48f457bd"
+    },
+    {
+      "guid" : "4ec45bd743ee64e4e7ab9b04c252e2ced36d94bca50c60bca531ca2a5f8ce6e6"
+    }
+  ],
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "x86_64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "iphonesimulator",
+      "sdk" : "iphonesimulator14.5",
+      "sdkVariant" : "iphonesimulator",
+      "supportedArchitectures" : [
+        "x86_64"
+      ],
+      "targetArchitecture" : "x86_64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "",
+      "buildProductsPath" : "",
+      "derivedDataPath" : "/Users/v.rezvancev/Library/Developer/Xcode/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/v.rezvancev/Library/Developer/Xcode/DerivedData/BattleGame-chmjzrfgimsonkgsyggcumjbipmk/Index/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/v.rezvancev/Library/Developer/Xcode/DerivedData/BattleGame-chmjzrfgimsonkgsyggcumjbipmk/Index/PrecompiledHeaders",
+      "pchPath" : ""
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ASSETCATALOG_FILTER_FOR_DEVICE_MODEL" : "iPod9,1",
+          "ASSETCATALOG_FILTER_FOR_DEVICE_OS_VERSION" : "14.5",
+          "BUILD_ACTIVE_RESOURCES_ONLY" : "YES",
+          "ENABLE_PREVIEWS" : "NO",
+          "TARGET_DEVICE_IDENTIFIER" : "FF9D7EFE-CE8B-40F2-9E1F-2CCE9F4C2948",
+          "TARGET_DEVICE_MODEL" : "iPod9,1",
+          "TARGET_DEVICE_OS_VERSION" : "14.5",
+          "TARGET_DEVICE_PLATFORM_NAME" : "iphonesimulator"
+        }
+      }
+    }
+  },
+  "qos" : "default",
+  "schemeCommand" : "launch",
+  "shouldCollectMetrics" : false,
+  "showNonLoggedProgress" : true,
+  "useDryRun" : true,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

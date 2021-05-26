@@ -1,2 +1,2 @@
 dependencies: \
-  /Users/v.rezvancev/BattleGame/BattleGame/proj.ios_mac/ios/main.m
+  /Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/proj.ios_mac/ios/main.m

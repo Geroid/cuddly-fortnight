@@ -5,7 +5,7 @@ empty:=
 space:= $(empty) $(empty)
 spaceplus:= $(empty)\ $(empty)
 
-TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/ConvertUTF/CMakeLists.txt))
+TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/cocos2d/external/ConvertUTF/CMakeLists.txt))
 
-/Users/v.rezvancev/BattleGame/BattleGame/ios-build/CMakeFiles/cmake.check_cache: $(TARGETS)
-	/usr/local/Cellar/cmake/3.20.2/bin/cmake -H/Users/v.rezvancev/BattleGame/BattleGame -B/Users/v.rezvancev/BattleGame/BattleGame/ios-build
+/Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/ios-build/CMakeFiles/cmake.check_cache: $(TARGETS)
+	/usr/local/Cellar/cmake/3.20.2/bin/cmake -H/Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame -B/Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/ios-build

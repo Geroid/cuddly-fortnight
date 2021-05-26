@@ -18,10 +18,11 @@ public:
     void update(float) override;
 
     cocos2d::Sprite* player;
+    cocos2d::Sprite* enemy;
 private:
     void spawnPlayer();
     void initBackground();
-    void spawnEnemy(int amount);
+    void spawnEnemy();
 };
 
 #endif /* GameScene_hpp */

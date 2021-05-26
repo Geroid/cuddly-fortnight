@@ -3,10 +3,10 @@
 <plist version="1.0">
 <dict>
 	<key>application-identifier</key>
-	<string>75WX54S966.org.cocos2dx.BattleGame</string>
+	<string>PXR2P6394X.com.rezvantsev.game</string>
 	<key>keychain-access-groups</key>
 	<array>
-		<string>75WX54S966.org.cocos2dx.BattleGame</string>
+		<string>PXR2P6394X.com.rezvantsev.game</string>
 	</array>
 </dict>
 </plist>

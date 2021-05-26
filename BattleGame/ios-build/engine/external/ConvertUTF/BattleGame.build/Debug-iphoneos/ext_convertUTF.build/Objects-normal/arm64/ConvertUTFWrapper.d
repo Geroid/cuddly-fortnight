@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/ConvertUTF/ConvertUTFWrapper.cpp \
-  /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/ConvertUTF/ConvertUTF.h
+  /Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/cocos2d/external/ConvertUTF/ConvertUTFWrapper.cpp \
+  /Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/cocos2d/external/ConvertUTF/ConvertUTF.h

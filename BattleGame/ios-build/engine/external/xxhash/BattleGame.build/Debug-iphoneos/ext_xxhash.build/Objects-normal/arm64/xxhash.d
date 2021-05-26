@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/xxhash/xxhash.c \
-  /Users/v.rezvancev/BattleGame/BattleGame/cocos2d/external/xxhash/xxhash.h
+  /Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/cocos2d/external/xxhash/xxhash.c \
+  /Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/cocos2d/external/xxhash/xxhash.h

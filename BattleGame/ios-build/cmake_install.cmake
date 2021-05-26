@@ -1,4 +1,4 @@
-# Install script for directory: /Users/v.rezvancev/BattleGame/BattleGame
+# Install script for directory: /Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -37,7 +37,7 @@ if(NOT DEFINED CMAKE_OBJDUMP)
   set(CMAKE_OBJDUMP "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/objdump")
 endif()
 
-set(CMAKE_BINARY_DIR "/Users/v.rezvancev/BattleGame/BattleGame/ios-build")
+set(CMAKE_BINARY_DIR "/Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/ios-build")
 
 if(NOT PLATFORM_NAME)
   if(NOT "$ENV{PLATFORM_NAME}" STREQUAL "")
@@ -59,7 +59,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/v.rezvancev/BattleGame/BattleGame/ios-build/engine/cocos/core/cmake_install.cmake")
+  include("/Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/ios-build/engine/cocos/core/cmake_install.cmake")
 
 endif()
 
@@ -71,5 +71,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/v.rezvancev/BattleGame/BattleGame/ios-build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/ios-build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

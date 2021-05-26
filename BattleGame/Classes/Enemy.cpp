@@ -23,7 +23,19 @@ bool Enemy::init() {
     }
     this->health = 100;
     this->fireRate = 2;
+    this->fireTimer = 0;
     this->setTexture("enemy.png");
+    
+    //poolbullets
+    for (int i = 0; i < 20; i++) {
+        auto bullet = Bullet::createSprite();
+        bullet->setVisible(false);
+        auto name = "bullet" + std::to_string(i);
+        bullet->setName(name);
+        this->bullets.pushBack(bullet);
+    }
+    
+    
     auto size = this->getContentSize();
     auto physicsBody = PhysicsBody::createBox(size, PhysicsMaterial(0.1f, 1.0f, 0.0f));
     physicsBody->setCategoryBitmask(0x1);
@@ -32,7 +44,7 @@ bool Enemy::init() {
     this->addComponent(physicsBody);
     this->setScale(0.3);
     this->setRotation(180);
-    
+    this->initMovement();
     //update loop
     this->scheduleUpdate();
     
@@ -46,7 +58,6 @@ bool Enemy::initMovement() {
     Vec2 origin = director->getVisibleOrigin();
     auto position = this->getPosition();
     auto size = this->getBoundingBox().size;
-//    auto moveByY = (origin.y - size.height / 2) - position.y;
     
     // move down
     auto moveDown = MoveBy::create(_animationTime, Vec2(0, -size.height * 2));
@@ -68,6 +79,13 @@ bool Enemy::initMovement() {
     return true;
 }
 
+void Enemy::update(float delta) {
+    fireTimer += delta*1000;
+    if(fireTimer >= 1000 / fireRate) {
+        fireTimer = 0;
+        fire();
+    }}
+
 void Enemy::spawn() {
     this->setVisible(true);
     // Init movement
@@ -80,7 +98,38 @@ void Enemy::despawn() {
 }
 
 void Enemy::fire() {
+    Sprite* bullet;
+    //find bullet to fire from pool
+    for (auto & elem : this->bullets) {
+        if (!elem->isVisible()) {
+            bullet = elem;
+            break;
+        }
+    }
+    if (bullet == nullptr) {
+        log("No bullets left :(");
+        return;
+    }
+    //spawn bullet from the pool
+    bullet->setVisible(true);
+    auto enemyPosition = this->getPosition();
+    this->getParent()->addChild(bullet);
+    //calculate bullet padding
+    auto bulletPadding = (this->getBoundingBox().size.height / 2) + (bullet->getBoundingBox().size.height / 2);
+    bullet->setPosition(Vec2(enemyPosition.x,enemyPosition.y-bulletPadding));
+    //make sure bullets go out of screen
+    auto director = Director::getInstance();
+    auto visibleSize = director->getVisibleSize();
+    Vec2 origin = director->getVisibleOrigin();
     
+    auto moveBy = MoveBy::create(1, Vec2(0, origin.y-visibleSize.height));
+    auto callbackMoveBy = CallFunc::create([bullet]() {
+        //return used bullet to pool
+        bullet->setVisible(false);
+        bullet->removeFromParent();
+    });
+    auto sequence = Sequence::create(moveBy, callbackMoveBy, nullptr);
+    bullet->runAction(sequence);
 }
 
 void Enemy::hurt() {

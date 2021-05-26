@@ -189,7 +189,7 @@ bool Player::moveTo(cocos2d::Touch *touch, cocos2d::Event *event) {
     // move to left
     else if (location.x <= leftBoundary) {
         auto time = abs(leftLimit - position.x) / moveSpeed;
-        auto moveTo = MoveTo::create(time, Vec2(rightLimit, position.y));
+        auto moveTo = MoveTo::create(time, Vec2(leftLimit, position.y));
         runAction(moveTo);
     }
     return true;
