@@ -63,5 +63,7 @@ proj.android/libraries/*/.idea/*
 proj.android/libraries/*/*.iml
 proj.android/libraries/*/local.properties
 
-
 *.apk
+
+# Build
+/ios-build
