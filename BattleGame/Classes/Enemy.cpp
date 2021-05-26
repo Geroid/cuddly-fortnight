@@ -35,14 +35,14 @@ bool Enemy::init() {
         this->bullets.pushBack(bullet);
     }
     
-    
+    this->setScale(0.3);
     auto size = this->getContentSize();
     auto physicsBody = PhysicsBody::createBox(size, PhysicsMaterial(0.1f, 1.0f, 0.0f));
     physicsBody->setCategoryBitmask(0x1);
     physicsBody->setContactTestBitmask(0x2);
     physicsBody->setDynamic(false);
     this->addComponent(physicsBody);
-    this->setScale(0.3);
+    
     this->setRotation(180);
     this->initMovement();
     //update loop
@@ -92,9 +92,11 @@ void Enemy::spawn() {
 }
 
 void Enemy::despawn() {
-    this->setVisible(false);
-    this->stopAllActions();
-    this->removeFromParent();
+    if (this->health == 0) {
+        this->setVisible(false);
+        this->stopAllActions();
+        this->removeFromParent();
+    }
 }
 
 void Enemy::fire() {

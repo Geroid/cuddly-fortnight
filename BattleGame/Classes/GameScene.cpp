@@ -24,6 +24,14 @@ bool Game::init() {
     this->initBackground();
     this->spawnPlayer();
     this->spawnEnemy();
+    
+    
+    // contact event
+    auto contactListener = EventListenerPhysicsContact::create();
+    contactListener->onContactBegin = CC_CALLBACK_1(Game::onContactBegin, this);
+    _eventDispatcher->addEventListenerWithSceneGraphPriority(contactListener, this);
+    
+    this->scheduleUpdate();
 
     log("Game Scene -- Successfully initialize");
     return true;
@@ -47,7 +55,7 @@ void Game::spawnEnemy() {
     auto visibleSize = director->getVisibleSize();
     Vec2 origin = director->getVisibleOrigin();
     this->enemy = Enemy::createSprite();
-    this->enemy->setPosition(origin.x+(visibleSize.width/2), origin.y+this->enemy->getBoundingBox().size.height+100);
+    this->enemy->setPosition(origin.x+(visibleSize.width/2), origin.y+visibleSize.height - this->enemy->getBoundingBox().size.height);
     this->addChild(this->enemy);
 }
 
@@ -60,3 +68,43 @@ void Game::initBackground() {
     background->setPosition(pos);
     this->addChild(background);
 }
+
+void Game::despawnEnemy(Sprite* enemy) {
+    auto e = (Enemy*)enemy;
+//    enemyPool.pushBack(e);
+//    spawnedEnemies.eraseObject(e);
+    e->despawn();
+}
+
+
+bool Game::onContactBegin(cocos2d::PhysicsContact &contact) {
+    PhysicsBody* A = contact.getShapeA()->getBody();
+    PhysicsBody* B = contact.getShapeB()->getBody();
+    
+    //bullet hits enemy
+    if (A->getCategoryBitmask() == 0x2 && B->getCategoryBitmask() == 0x1) {
+        auto bullet = A->getNode();
+        auto enemy = (Enemy*)B->getNode();
+        enemy->hurt();
+        this->despawnEnemy(enemy);
+        bullet->setVisible(false);
+        bullet->removeFromParent();
+    }
+    //enemy hits bullet ?!
+    else if (A->getCategoryBitmask() == 0x1 && B->getCategoryBitmask() == 0x2) {
+        auto enemy = (Enemy*)A->getNode();
+        auto bullet = B->getNode();
+        enemy->hurt();
+        this->despawnEnemy(enemy);
+        bullet->setVisible(false);
+        bullet->removeFromParent();
+    }
+    //enemy hits limit
+    else if ((A->getCategoryBitmask() == 0x1 && B->getCategoryBitmask() == 0x3) ||
+             A->getCategoryBitmask()== 0x3 && B->getCategoryBitmask()== 0x1) {
+        //            this->endGame();
+    }
+    
+    return true;
+}
+

@@ -23,6 +23,8 @@ private:
     void spawnPlayer();
     void initBackground();
     void spawnEnemy();
+    void despawnEnemy(cocos2d::Sprite* enemy);
+    bool onContactBegin(cocos2d::PhysicsContact & contact);
 };
 
 #endif /* GameScene_hpp */
