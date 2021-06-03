@@ -13,16 +13,20 @@
 class Player : public cocos2d::Sprite {
 public:
     static cocos2d::Sprite* createSprite();
-    float health;
     virtual bool init() override;
     CREATE_FUNC(Player);
 
     virtual void update(float) override;
     void fire();
+    void hurt();
+    void die();
+    int getHealth();
+    
 private:
     float fireRate;
     float fireTimer;
     void initControls();
+    float health;
     cocos2d::Vector<cocos2d::Sprite*> bullets;
     bool moveTo(cocos2d::Touch *touch, cocos2d::Event *event);
     bool endMove(cocos2d::Touch *touch, cocos2d::Event *event);

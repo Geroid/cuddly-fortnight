@@ -7,6 +7,7 @@
 
 #include "Player.hpp"
 #include "Bullet.hpp"
+#include "Definitions.h"
 USING_NS_CC;
 
 Sprite* Player::createSprite() {
@@ -23,6 +24,15 @@ bool Player::init() {
     this->health = 3;
     this->fireTimer = 0;
     this->fireRate = 3;
+    
+    this->setTag(BULLET_TAG+1);
+    auto size = this->getContentSize();
+    auto physicsBody = PhysicsBody::createBox(size, PhysicsMaterial(0.1f, 1.0f, 0.0f));
+    physicsBody->setDynamic(false);
+    physicsBody->setCategoryBitmask(ENEMY_CATEGORY_BITMASK);
+    physicsBody->setCollisionBitmask(PLAYER_COLLISION_BITMASK);
+    physicsBody->setContactTestBitmask(true);
+    this->setPhysicsBody(physicsBody);
 
     //pool of bullets
     for (int i = 0; i < 20; i++) {
@@ -34,9 +44,6 @@ bool Player::init() {
     }
     
     initControls();
-    
-    //update loop
-    this->scheduleUpdate();
 
     log("Player -- successfully initialize");
     return true;
@@ -48,6 +55,22 @@ void Player::update(float delta) {
         fireTimer = 0;
         fire();
     }
+}
+
+void Player::hurt() {
+    if (health > 0) {
+        health--;
+    }
+}
+
+int Player::getHealth() {
+    return health;
+}
+
+void Player::die() {
+    this->setVisible(false);
+    this->stopAllActions();
+    this->removeFromParent();
 }
 
 void Player::fire() {
@@ -71,7 +94,7 @@ void Player::fire() {
     
     //calculate bullet padding
     auto bulletPadding = (this->getBoundingBox().size.height / 2) + (bullet->getBoundingBox().size.height / 2);
-    bullet->setPosition(Vec2(playerPos.x,playerPos.y+bulletPadding));
+    bullet->setPosition(Vec2(playerPos.x,playerPos.y+bulletPadding+5));
     
     //make sure bullets go out of screen
     auto director = Director::getInstance();
@@ -159,8 +182,7 @@ bool Player::keyboardEndMove(cocos2d::EventKeyboard::KeyCode keyCode, cocos2d::E
 }
 
 // ----------------
-// Use touches to control player ship,
-// but now hasn't been used
+// Use touches to control player ship
 // ----------------
 
 bool Player::moveTo(cocos2d::Touch *touch, cocos2d::Event *event) {

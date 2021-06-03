@@ -1902,6 +1902,7 @@
 		B57BACF2B0B94223A4EBCAF6 /* CCPURibbonTrailRender.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CCPURibbonTrailRender.h; path = cocos2d/extensions/Particle3D/PU/CCPURibbonTrailRender.h; sourceTree = SOURCE_ROOT; };
 		B5814DBCE676472C911B9A57 /* playerLeft.png */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = image; name = playerLeft.png; path = Resources/playerLeft.png; sourceTree = SOURCE_ROOT; };
 		B5A164E019B246589CECD862 /* HttpClient.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = HttpClient.h; path = cocos2d/cocos/network/HttpClient.h; sourceTree = SOURCE_ROOT; };
+		B5D1B6B42662E3030032A56A /* Definitions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Definitions.h; path = Classes/Definitions.h; sourceTree = "<group>"; };
 		B5E7C286D0CE43378B034F77 /* HttpAsynConnection-apple.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = "HttpAsynConnection-apple.h"; path = "cocos2d/cocos/network/HttpAsynConnection-apple.h"; sourceTree = SOURCE_ROOT; };
 		B5EF0D12265E1FDE00C4A92D /* GameScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GameScene.cpp; path = Classes/GameScene.cpp; sourceTree = "<group>"; };
 		B5EF0D13265E1FDE00C4A92D /* Meteor.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Meteor.hpp; path = Classes/Meteor.hpp; sourceTree = "<group>"; };
@@ -4279,6 +4280,7 @@
 				939749A41A7A461D8634C778 /* AppDelegate.h */,
 				9C96548D2AA74F7494206DEA /* HelloWorldScene.cpp */,
 				E4C5F86E89A2413D87E90FAD /* HelloWorldScene.h */,
+				B5D1B6B42662E3030032A56A /* Definitions.h */,
 			);
 			name = Classes;
 			sourceTree = "<group>";

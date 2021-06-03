@@ -23,7 +23,9 @@ private:
     void spawnPlayer();
     void initBackground();
     void spawnEnemy();
+    void gameOver();
     void despawnEnemy(cocos2d::Sprite* enemy);
+    void showGameOverScene();
     bool onContactBegin(cocos2d::PhysicsContact & contact);
 };
 

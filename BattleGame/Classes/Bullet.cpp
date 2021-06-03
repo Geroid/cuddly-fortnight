@@ -6,6 +6,7 @@
 //
 
 #include "Bullet.hpp"
+#include "Definitions.h"
 
 USING_NS_CC;
 
@@ -20,13 +21,14 @@ bool Bullet::init() {
     }
     this->damage = 50;
     this->setTexture("laserGreen.png");
-    auto rect = this->getTextureRect();
-
-    auto physicsBody = PhysicsBody::createBox(rect.size, PhysicsMaterial(0.1f, 1.0f,0.0f));
-    physicsBody->setCategoryBitmask(0x2);
-    physicsBody->setContactTestBitmask(0x1);
+//    auto rect = this->getTextureRect();
+    auto size = this->getContentSize();
+    auto physicsBody = PhysicsBody::createBox(size, PhysicsMaterial(0.1f, 1.0f,0.0f));
+    physicsBody->setCategoryBitmask(BULLET_CATEGORY_BITMASK);
+    physicsBody->setCollisionBitmask(BULLET_COLLISION_BITMASK);
+    physicsBody->setContactTestBitmask(true);
     physicsBody->setDynamic(false);
-    this->addComponent(physicsBody);
-    
+    this->setPhysicsBody(physicsBody);
+
     return true;
 }

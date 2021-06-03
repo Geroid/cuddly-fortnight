@@ -203,4 +203,5 @@ dependencies: \
   /Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/cocos2d/cocos/3d/CCSprite3DMaterial.h \
   /Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/cocos2d/cocos/3d/CCTerrain.h \
   /Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/cocos2d/cocos/3d/CCVertexAttribBinding.h \
-  /Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/Classes/Bullet.hpp
+  /Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/Classes/Bullet.hpp \
+  /Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/Classes/Definitions.h

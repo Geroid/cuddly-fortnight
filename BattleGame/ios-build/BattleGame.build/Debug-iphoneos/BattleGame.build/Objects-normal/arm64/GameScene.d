@@ -204,6 +204,40 @@ dependencies: \
   /Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/cocos2d/cocos/3d/CCTerrain.h \
   /Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/cocos2d/cocos/3d/CCVertexAttribBinding.h \
   /Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/Classes/GameOverScene.hpp \
+  /Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/cocos2d/cocos/ui/CocosGUI.h \
+  /Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/cocos2d/cocos/ui/UIWidget.h \
+  /Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/cocos2d/cocos/ui/UILayoutParameter.h \
+  /Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/cocos2d/cocos/ui/GUIExport.h \
+  /Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/cocos2d/cocos/ui/GUIDefine.h \
+  /Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/cocos2d/cocos/base/ObjectFactory.h \
+  /Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/cocos2d/cocos/ui/UILayout.h \
+  /Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/cocos2d/cocos/ui/UIButton.h \
+  /Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/cocos2d/cocos/ui/UICheckBox.h \
+  /Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/cocos2d/cocos/ui/UIAbstractCheckButton.h \
+  /Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/cocos2d/cocos/ui/UIRadioButton.h \
+  /Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/cocos2d/cocos/ui/UIImageView.h \
+  /Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/cocos2d/cocos/ui/UIText.h \
+  /Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/cocos2d/cocos/ui/UITextAtlas.h \
+  /Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/cocos2d/cocos/ui/UILoadingBar.h \
+  /Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/cocos2d/cocos/ui/UIScrollView.h \
+  /Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/cocos2d/cocos/ui/UIListView.h \
+  /Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/cocos2d/cocos/ui/UISlider.h \
+  /Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/cocos2d/cocos/ui/UITextField.h \
+  /Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/cocos2d/cocos/ui/UITextBMFont.h \
+  /Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/cocos2d/cocos/ui/UIPageView.h \
+  /Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/cocos2d/cocos/ui/UIHelper.h \
+  /Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/cocos2d/cocos/ui/UIRichText.h \
+  /Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/cocos2d/cocos/ui/UIHBox.h \
+  /Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/cocos2d/cocos/ui/UIVBox.h \
+  /Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/cocos2d/cocos/ui/UIRelativeBox.h \
+  /Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/cocos2d/cocos/ui/UIVideoPlayer.h \
+  /Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/cocos2d/cocos/ui/UIWebView/UIWebView.h \
+  /Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/cocos2d/cocos/ui/UIScale9Sprite.h \
+  /Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/cocos2d/cocos/ui/UIEditBox/UIEditBox.h \
+  /Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/cocos2d/cocos/ui/UILayoutComponent.h \
+  /Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/cocos2d/cocos/ui/UITabControl.h \
+  /Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/cocos2d/cocos/editor-support/cocostudio/CocosStudioExtension.h \
   /Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/Classes/Player.hpp \
   /Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/Classes/Background.hpp \
-  /Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/Classes/Enemy.hpp
+  /Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/Classes/Enemy.hpp \
+  /Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/Classes/Definitions.h

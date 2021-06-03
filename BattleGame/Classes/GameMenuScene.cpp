@@ -41,7 +41,6 @@ bool MainMenu::init() {
             case ui::Widget::TouchEventType::BEGAN:
                 break;
             case ui::Widget::TouchEventType::ENDED:
-                log("Tap ended");
                 menuCallback(sender);
             default:
                 break;

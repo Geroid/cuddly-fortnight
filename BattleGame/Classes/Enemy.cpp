@@ -7,6 +7,8 @@
 
 #include "Enemy.hpp"
 #include "Bullet.hpp"
+#include "Definitions.h"
+
 USING_NS_CC;
 
 static const float _animationTime = 0.5f;
@@ -35,19 +37,18 @@ bool Enemy::init() {
         this->bullets.pushBack(bullet);
     }
     
-    this->setScale(0.3);
     auto size = this->getContentSize();
-    auto physicsBody = PhysicsBody::createBox(Size(size.width, size.height), PhysicsMaterial(0.1f, 1.0f, 0.0f));
-    physicsBody->setDynamic(true);
-    physicsBody->setCategoryBitmask(0x1);
-    physicsBody->setContactTestBitmask(0x2);
+    this->setTag(BULLET_TAG);
+    auto physicsBody = PhysicsBody::createBox(size, PhysicsMaterial(0.1f, 1.0f, 0.0f));
+    physicsBody->setDynamic(false);
+    physicsBody->setCategoryBitmask(ENEMY_CATEGORY_BITMASK);
+    physicsBody->setCollisionBitmask(ENEMY_COLLISION_BITMASK);
+    physicsBody->setContactTestBitmask(true);
+    this->setPhysicsBody(physicsBody);
     
-    this->addComponent(physicsBody);
-    
+    this->setScale(0.3);
     this->setRotation(180);
     this->initMovement();
-    //update loop
-    this->scheduleUpdate();
     
     return true;
 }
@@ -102,6 +103,7 @@ void Enemy::despawn() {
 
 void Enemy::fire() {
     Sprite* bullet;
+    
     //find bullet to fire from pool
     for (auto & elem : this->bullets) {
         if (!elem->isVisible()) {
@@ -113,13 +115,16 @@ void Enemy::fire() {
         log("No bullets left :(");
         return;
     }
+    
     //spawn bullet from the pool
     bullet->setVisible(true);
     auto enemyPosition = this->getPosition();
     this->getParent()->addChild(bullet);
+    
     //calculate bullet padding
     auto bulletPadding = (this->getBoundingBox().size.height / 2) + (bullet->getBoundingBox().size.height / 2);
-    bullet->setPosition(Vec2(enemyPosition.x,enemyPosition.y-bulletPadding));
+    bullet->setPosition(Vec2(enemyPosition.x,enemyPosition.y- (2 * bulletPadding)));
+    
     //make sure bullets go out of screen
     auto director = Director::getInstance();
     auto visibleSize = director->getVisibleSize();
@@ -127,6 +132,7 @@ void Enemy::fire() {
     
     auto moveBy = MoveBy::create(1, Vec2(0, origin.y-visibleSize.height));
     auto callbackMoveBy = CallFunc::create([bullet]() {
+        
         //return used bullet to pool
         bullet->setVisible(false);
         bullet->removeFromParent();
