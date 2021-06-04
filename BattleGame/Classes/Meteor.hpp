@@ -16,6 +16,14 @@ public:
     static cocos2d::Sprite* createSprite();
     virtual bool init() override;
     CREATE_FUNC(Meteor);
+    void spawn();
+    void despawn();
+    void hurt();
+    virtual void update(float) override;
+    
+private:
+    int health;
+    bool initMovement();
 };
 
 #endif /* Meteor_hpp */

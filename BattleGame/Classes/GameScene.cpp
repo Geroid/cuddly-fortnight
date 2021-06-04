@@ -10,6 +10,7 @@
 #include "Player.hpp"
 #include "Background.hpp"
 #include "Enemy.hpp"
+#include "Meteor.hpp"
 #include "Definitions.h"
 #include "ccRandom.h"
 USING_NS_CC;
@@ -39,10 +40,10 @@ bool Game::init() {
     auto edgeBody = PhysicsBody::createEdgeBox(visibleSize, PHYSICSBODY_MATERIAL_DEFAULT, 6);
     auto edgeNode = Node::create();
     edgeNode->setPosition(Point(origin.x + visibleSize.width / 2, origin.y + visibleSize.height / 2));
-//    edgeBody->
     edgeNode->setPhysicsBody(edgeBody);
     this->addChild(edgeNode);
     this->timerEnemySpawn = 0;
+    this->timerMeteor = 0;
 
     this->initBackground();
     this->spawnPlayer();
@@ -62,12 +63,17 @@ bool Game::init() {
 
 void Game::update(float delta) {
     Size visibleSize = Director::getInstance()->getVisibleSize();
+   
+    timerMeteor += delta*1000;
+    if (timerMeteor > 2000) {
+        timerMeteor = 0;
+        spawnMeteor();
+    }
     timerEnemySpawn += delta*1000;
-    if (timerEnemySpawn > 2500)
-        {
+    if (timerEnemySpawn > 4000) {
             timerEnemySpawn = 0;
             spawnEnemy();
-        }
+    }
 }
 
 void Game::spawnPlayer() {
@@ -87,6 +93,18 @@ void Game::spawnEnemy() {
     auto posX = (rand() % static_cast<int>(visibleSize.width)) + (enemy->getContentSize().width / 2);
     this->enemy->setPosition(posX, origin.y+visibleSize.height - this->enemy->getBoundingBox().size.height);
     this->addChild(this->enemy, 0);
+}
+
+void Game::spawnMeteor() {
+    auto director = Director::getInstance();
+    auto visibleSize = director->getVisibleSize();
+    Vec2 origin = director->getVisibleOrigin();
+    auto meteor = Meteor::create();
+    auto posX = (rand() % static_cast<int>(visibleSize.width)) + (meteor->getContentSize().width / 2);
+    auto posY = origin.y+visibleSize.height - meteor->getBoundingBox().size.height;
+    meteor->setPosition(posX, posY);
+    this->addChild(meteor);
+    
 }
 
 void Game::initBackground() {
@@ -164,6 +182,32 @@ bool Game::onContactBegin(cocos2d::PhysicsContact &contact) {
         this->gameOver();
         bullet->setVisible(false);
         bullet->removeFromParent();
+    }
+    else if (A->getCollisionBitmask() == METEOR_COLLISION_BITMASK && B->getCollisionBitmask() == PLAYER_COLLISION_BITMASK) {
+        auto meteor = (Meteor*)nodeA;
+        auto player = (Player*)nodeB;
+        player->hurt();
+        this->gameOver();
+        meteor->setVisible(false);
+        meteor->removeFromParent();
+    } else if (B->getCollisionBitmask() == METEOR_COLLISION_BITMASK && A->getCollisionBitmask() == PLAYER_COLLISION_BITMASK) {
+        auto meteor = (Meteor*)nodeB;
+        auto player = (Player*)nodeA;
+        player->hurt();
+        this->gameOver();
+        meteor->setVisible(false);
+        meteor->removeFromParent();
+    }
+    else if (A->getCollisionBitmask() == METEOR_COLLISION_BITMASK && B->getCollisionBitmask() == BULLET_COLLISION_BITMASK) {
+        auto meteor = (Meteor*)nodeA;
+        auto bullet = nodeB;
+        meteor->setVisible(false);
+        meteor->removeFromParent();
+    } else if (B->getCollisionBitmask() == BULLET_COLLISION_BITMASK && A->getCollisionBitmask() == PLAYER_COLLISION_BITMASK) {
+        auto meteor = (Meteor*)nodeB;
+        auto bullet = nodeA;
+        meteor->setVisible(false);
+        meteor->removeFromParent();
     }
     //enemy hits limit
 //    else if ((A->getCategoryBitmask() == 0x1 && B->getCategoryBitmask() == 0x3) ||

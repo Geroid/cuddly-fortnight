@@ -22,10 +22,11 @@ public:
 private:
     cocos2d::Vector<cocos2d::Sprite*> enemies;
     float timerEnemySpawn;
-    
+    float timerMeteor;
     void spawnPlayer();
     void initBackground();
     void spawnEnemy();
+    void spawnMeteor();
     void gameOver();
     void despawnEnemy(cocos2d::Sprite* enemy);
     void showGameOverScene();

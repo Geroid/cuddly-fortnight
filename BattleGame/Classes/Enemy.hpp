@@ -20,9 +20,11 @@ public:
     void despawn();
     void fire();
     void hurt();
+    void spawnEnemyByType(int type);
     virtual void update(float) override;
     
 private:
+    int type;
     int health;
     int fireRate;
     float fireTimer;

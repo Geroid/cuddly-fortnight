@@ -240,4 +240,5 @@ dependencies: \
   /Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/Classes/Player.hpp \
   /Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/Classes/Background.hpp \
   /Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/Classes/Enemy.hpp \
+  /Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/Classes/Meteor.hpp \
   /Users/v.rezvancev/Documents/GitHub/cuddly-fortnight/BattleGame/Classes/Definitions.h
