@@ -201,9 +201,10 @@ bool Game::onContactBegin(cocos2d::PhysicsContact &contact) {
     else if (A->getCollisionBitmask() == METEOR_COLLISION_BITMASK && B->getCollisionBitmask() == BULLET_COLLISION_BITMASK) {
         auto meteor = (Meteor*)nodeA;
         auto bullet = nodeB;
+
         meteor->setVisible(false);
         meteor->removeFromParent();
-    } else if (B->getCollisionBitmask() == BULLET_COLLISION_BITMASK && A->getCollisionBitmask() == PLAYER_COLLISION_BITMASK) {
+    } else if (B->getCollisionBitmask() == METEOR_COLLISION_BITMASK && A->getCollisionBitmask() == BULLET_COLLISION_BITMASK) {
         auto meteor = (Meteor*)nodeB;
         auto bullet = nodeA;
         meteor->setVisible(false);
