@@ -20,6 +20,9 @@ public:
     cocos2d::Sprite* player;
     cocos2d::Sprite* enemy;
 private:
+    cocos2d::Vector<cocos2d::Sprite*> enemies;
+    float timerEnemySpawn;
+    
     void spawnPlayer();
     void initBackground();
     void spawnEnemy();

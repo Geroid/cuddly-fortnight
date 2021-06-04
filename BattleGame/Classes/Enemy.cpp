@@ -62,9 +62,9 @@ bool Enemy::initMovement() {
     auto size = this->getBoundingBox().size;
     
     // move down
-    auto moveDown = MoveBy::create(_animationTime, Vec2(0, -size.height * 2));
-    auto delay = DelayTime::create(_delay);
-    auto sequenceDown = Sequence::create(moveDown, delay, nullptr);
+//    auto moveDown = MoveBy::create(_animationTime, Vec2(0, -size.height * 2));
+//    auto delay = DelayTime::create(_delay);
+//    auto sequenceDown = Sequence::create(moveDown, delay, nullptr);
     
     // swing left to right
     auto moveLeft = MoveBy::create(1, Vec2(-size.width,0));
@@ -72,10 +72,10 @@ bool Enemy::initMovement() {
     
     auto swingSequence = Sequence::create(moveLeft, moveRight, moveLeft, nullptr);
         
-    auto intervalAction = RepeatForever::create(sequenceDown);
+//    auto intervalAction = RepeatForever::create(sequenceDown);
     auto intervalSwing = RepeatForever::create(swingSequence);
     
-    this->runAction(intervalAction);
+//    this->runAction(intervalAction);
     this->runAction(intervalSwing);
     
     return true;
