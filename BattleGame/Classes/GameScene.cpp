@@ -11,7 +11,11 @@
 #include "Background.hpp"
 #include "Enemy.hpp"
 #include "Definitions.h"
+#include "ccRandom.h"
 USING_NS_CC;
+
+static const float _delay = 5.0f;
+
 
 Scene* Game::createScene() {
     auto scene = Scene::createWithPhysics();
@@ -35,13 +39,15 @@ bool Game::init() {
     auto edgeBody = PhysicsBody::createEdgeBox(visibleSize, PHYSICSBODY_MATERIAL_DEFAULT, 6);
     auto edgeNode = Node::create();
     edgeNode->setPosition(Point(origin.x + visibleSize.width / 2, origin.y + visibleSize.height / 2));
+//    edgeBody->
     edgeNode->setPhysicsBody(edgeBody);
     this->addChild(edgeNode);
+    this->timerEnemySpawn = 0;
 
     this->initBackground();
     this->spawnPlayer();
     this->spawnEnemy();
-    
+
     
     // contact event
     auto contactListener = EventListenerPhysicsContact::create();
@@ -55,7 +61,13 @@ bool Game::init() {
 }
 
 void Game::update(float delta) {
-    
+    Size visibleSize = Director::getInstance()->getVisibleSize();
+    timerEnemySpawn += delta*1000;
+    if (timerEnemySpawn > 2500)
+        {
+            timerEnemySpawn = 0;
+            spawnEnemy();
+        }
 }
 
 void Game::spawnPlayer() {
@@ -72,7 +84,8 @@ void Game::spawnEnemy() {
     auto visibleSize = director->getVisibleSize();
     Vec2 origin = director->getVisibleOrigin();
     this->enemy = Enemy::createSprite();
-    this->enemy->setPosition(origin.x+(visibleSize.width/2)+100, origin.y+visibleSize.height - this->enemy->getBoundingBox().size.height);
+    auto posX = (rand() % static_cast<int>(visibleSize.width)) + (enemy->getContentSize().width / 2);
+    this->enemy->setPosition(posX, origin.y+visibleSize.height - this->enemy->getBoundingBox().size.height);
     this->addChild(this->enemy, 0);
 }
 
