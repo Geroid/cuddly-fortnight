@@ -12,7 +12,7 @@
 USING_NS_CC;
 
 static const float _animationTime = 0.5f;
-static const float _delay = 5.0f;
+static const float _delay = 0.1f;
 
 Sprite* Enemy::createSprite() {
     return Enemy::create();
@@ -60,22 +60,13 @@ bool Enemy::initMovement() {
     Vec2 origin = director->getVisibleOrigin();
     auto position = this->getPosition();
     auto size = this->getBoundingBox().size;
-    
-    // move down
-//    auto moveDown = MoveBy::create(_animationTime, Vec2(0, -size.height * 2));
-//    auto delay = DelayTime::create(_delay);
-//    auto sequenceDown = Sequence::create(moveDown, delay, nullptr);
-    
+
     // swing left to right
     auto moveLeft = MoveBy::create(1, Vec2(-size.width,0));
     auto moveRight = MoveBy::create(2, Vec2(size.width*2,0));
     
     auto swingSequence = Sequence::create(moveLeft, moveRight, moveLeft, nullptr);
-        
-//    auto intervalAction = RepeatForever::create(sequenceDown);
     auto intervalSwing = RepeatForever::create(swingSequence);
-    
-//    this->runAction(intervalAction);
     this->runAction(intervalSwing);
     
     return true;
@@ -142,5 +133,7 @@ void Enemy::fire() {
 }
 
 void Enemy::hurt() {
-    this->health -= 50;
+    if (health > 0) {
+        this->health -= 50;
+    }
 }

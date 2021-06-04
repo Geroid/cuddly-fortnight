@@ -206,12 +206,14 @@ bool Player::moveTo(cocos2d::Touch *touch, cocos2d::Event *event) {
     if (location.x >= rightBoundary) {
         auto time = abs(rightLimit - position.x) / moveSpeed;
         auto moveTo = MoveTo::create(time, Vec2(rightLimit, position.y));
+        this->setTexture("playerRight.png");
         runAction(moveTo);
     }
     // move to left
     else if (location.x <= leftBoundary) {
         auto time = abs(leftLimit - position.x) / moveSpeed;
         auto moveTo = MoveTo::create(time, Vec2(leftLimit, position.y));
+        this->setTexture("playerLeft.png");
         runAction(moveTo);
     }
     return true;
@@ -219,5 +221,6 @@ bool Player::moveTo(cocos2d::Touch *touch, cocos2d::Event *event) {
 
 bool Player::endMove(cocos2d::Touch *touch, cocos2d::Event *event) {
     stopAllActions();
+    this->setTexture("player.png");
     return true;
 }
